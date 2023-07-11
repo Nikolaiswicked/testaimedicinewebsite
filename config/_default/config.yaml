@@ -64,7 +64,7 @@ menu:
       
     - name: Twitter
       pre: fab fa-twitter
-      url: https://twitter.com/i/flow/login?redirect_after_login=%2F
+      url: https://twitter.com
       weight: 7
     - name: Instagram
       pre: fab fa-instagram
