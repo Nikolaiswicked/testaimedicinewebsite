@@ -4,128 +4,94 @@ description: |
   Frequently asked questions
 icon: far fa-question-circle
 resImgTeaser: '**/faq.png'
-title: FAQ
+title: 常见问题
 toc: true
 ---
 
 
-Pellentesque {{% w3-badge %}}habitant{{% /w3-badge %}} morbi tristique senectus et {{% w3-badge "w3-green" %}}netus{{% /w3-badge %}} netus et malesuada
-fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-ultricies eget, tempor sit amet, ante. 
+孩子们 {{% w3-badge %}}居民{{% /w3-badge %}} 年老和疾病 {{% w3-badge "w3-green" %}}网{{% /w3-badge %}} 净值和预期值
+饥饿和贫困。 什么是生活质量？
 
-{{< icon name="fas fa-home" size="fa-2x" >}} Donec eu libero sit amet quam
-egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-eleifend leo.
+{{< icon name="fas fa-home" size="fa-2x" >}} 在那之前，自由足球比以往任何时候都更加重要。埃涅安是我一生的敌人——毛里斯·投资·埃莱芬德·利奥。
 
 
-## 1. Phasellus at dui in ligula mollis ultricies?
+## 1. 船在酒后驾车吗？
 
-Fusce suscipit, wisi nec {{% w3-tag %}}facilisi {{% /w3-tag %}} est dui
-fermentum leo, quis tempor ligula erat quis odio. {{% w3-tag "w3-blue w3-xxlarge" %}}Nunc{{% /w3-tag %}} porta vulputate tellus. Nunc rutrum
-turpis sed pede. Sed bibendum. Aliquam posuere. Nunc aliquet, augue
-nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi
-purus non odio. Pellentesque condimentum, magna ut suscipit hendrerit,
-ipsum augue ornare nulla, non luctus diam neque sit amet
-urna. Curabitur vulputate vestibulum lorem. Fusce sagittis, libero non
-molestie mollis, magna orci ultrices dolor, at vulputate neque nulla
-lacinia eros. Sed id ligula quis est convallis tempor.  Curabitur
-lacinia pulvinar nibh.
+首先告诉我 {{% w3-tag %}}船 {{% /w3-tag %}} 是什么东西？ {{% w3-tag "w3-blue w3-xxlarge" %}}理清思路{{% /w3-tag %}} 是你们在问问题之前先要做的事。为什么会有这么多人问我们的客服“船在酒后驾车吗？”这种问题？
 
-{{% w3-notice-icon %}}**Nam** a sapien.{{% /w3-notice-icon %}}
+{{% w3-notice-icon %}}**求求你们** 冷静一些。{{% /w3-notice-icon %}}
 
 
-## 2. Nunc rutrum turpis sed pede?
+## 2. 现在妆容丑了但是脚呢？
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam
-nisl, tincidunt et, mattis eget, convallis nec, purus. Cum sociis
-natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam non
-turpis. Cras placerat accumsan nulla. Nullam rutrum. 
+拥有良好的客户服务、客户服务提供商非常重要。 很遗憾当代亨德里特直到价格确定。 多少nisl、tincidunt 等、mattis eget、convallis nec、purus 与合作伙伴山峦将生出羽毛和巨大的推力，荒谬的事物将诞生老鼠 没有设置。 直到生命的痛苦。 没有悲伤的直径丑陋的 明天就没有投资了。 没有化​​妆。
 
-{{% w3-notice-icon type="success" %}}Nam vestibulum *accumsan* nisl.{{% /w3-notice-icon %}}
+{{% w3-notice-icon type="success" %}}对于门廊 *层* 玩家.{{% /w3-notice-icon %}}
 
-* Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
-* Nullam tristique diam non turpis.
-* Etiam laoreet quam sed arcu.
+* 미친다는 말이 이해 간달까.
+* I’m gettin’ LOCO LOCO.
+* Oh gosh 이건 달콤한 독 같아.
 
 
-## 3. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus?
-
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-skateboard dolor brunch. 
-{{% w3-alert-icon type="warning" heading="Food truck quinoa nesciunt laborum"  %}}
-Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-single-origin coffee nulla assumenda shoreditch et.
+## 3. 출구 없는 방 안에 사방이 너란 거울이야.굳이 쉽게 말하자면.
+I feel like I was born to love ya😍
+{{% w3-alert-icon type="warning" heading="사랑해🖤"  %}}
+Oasis 찾는 Kitty
 {{% /w3-alert-icon %}}
-Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-synth nesciunt you probably haven't heard of them accusamus labore
-sustainable VHS.
+난 니 주위를 맴돌지.
 
-{{% w3-notice-icon type="warning" heading="raw denim aesthetic" %}}
-accusamus **labore** sustainable VHS
+{{% w3-notice-icon type="warning" heading="這一頁好長厚" %}}
+隨便 **改改** 雖然都一樣
 {{% /w3-notice-icon %}}
 
 
-## 4. Pellentesque tristique imperdiet tortor?
+## 4. 孩子们悲惨的金融危机？
 
-Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non
-orci commodo lobortis. 
+你怎麼知道女孩子們馬上要發英文EP惹？
 
 {{% w3-notice-icon type="danger" heading="Nunc eleifend" %}}
-In id erat non orci commodo lobortis. 
+這怎麼是個炸彈圖哇，真的很危險⚠️
 {{% /w3-notice-icon %}}
 
-Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus. Sed
-diam. Praesent fermentum tempor tellus.  Nullam tempus. Mauris ac
-felis vel velit tristique imperdiet. Donec at pede. Etiam vel neque
-nec dui dignissim bibendum. Vivamus id enim. Phasellus neque orci,
-porta a, aliquet quis, semper a, massa.  Phasellus purus. Pellentesque
-tristique imperdiet tortor. Nam euismod tellus id erat.
+例如，既不是肿块，也不是病程，也不是怀孕，也不是药丸，也不是湖。但直径这是大地发酵的时期。没时间。莫里斯和触发或想要悲伤的投资。直到那时。是还是不是我也不配喝酒。我们为此而活。既不是船也不是医院闸门一，卡车者，始终一，大众。 船很干净。 孩子们可悲的投资侵权者 事实上，那是Euismod的土地。
 
 
 {{< heg-load-photoswipe >}}
-{{< heg-figure thumb="-thumb" link="images/teaserpics/pixabay.com/coffee-2306471_640.jpg"       width="200px" caption-position="bottom" caption-effect="appear" title="Hej" caption="Coffee" >}}
+{{< heg-figure thumb="-thumb" link="images/teaserpics/pixabay.com/coffee-2306471_640.jpg"       width="200px" caption-position="bottom" caption-effect="appear" title="コーヒー" caption="咖啡" >}}
 {{< heg-figure thumb="-thumb" link="images/teaserpics/pixabay.com/coffee-2714970_640.jpg"       width="200px" caption-position="bottom" caption-effect="appear" caption="Coffee" attr="(c) pixabay.com (CC0)" >}}
 {{< heg-figure thumb="-thumb" link="images/teaserpics/pixabay.com/coffee-beans-2258839_640.jpg" width="200px" caption-position="bottom" caption-effect="appear" caption="Coffee" attr="(c) pixabay.com (CC0)" attrlink="https://pixabay.com"  >}}
 
 
-## 5. Nulla posuere?
+## 5. 没有设置吗？
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-hendrerit tempor tellus. 
+当然有啦，只有聪明的人才看得见哦！
 
-{{% w3-quote source="Cum sociis" layout="icon" %}}
-Proin quam nisl, **tincidunt** et, mattis eget, convallis nec, purus.
+{{% w3-quote source="鲁迅" layout="icon" %}}
+智者从来不点进 **常见问题**。
 {{% /w3-quote %}}
 
-Donec pretium posuere tellus. Natoque penatibus et magnis dis
-parturient montes, nascetur ridiculus mus. Nulla posuere. Donec vitae
-dolor. Nullam tristique diam non turpis. Cras placerat accumsan
-nulla. Nullam rutrum. Nam vestibulum accumsan nisl.
+直到价格确定。 山将生出羽毛和巨大的刺力，一只可笑的老鼠将会诞生。 没有设置。 直到生命的痛苦。 没有悲伤的故事，也不丑陋。 明天就没有投资了。 没有化妆。 对于前厅层的玩家来说。
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+* 这些都是
+* 从哪里
+* 摘录的文字啊❓
 
 ---
 
-> Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.
+> 很抱歉，这个互联网上又多了一个垃圾网站。
 
-
+---
+为什么这里不能备注啊，🆘，这下面是打开了一个路径为/Users/luyiting/Desktop/testaimedicinewebsite/content/resources/images/photocards/pixabay.com的文件夹，然后这里面的图片就显示了（）
 
 {{< heg-gallery dir="/images/photocards/pixabay.com" caption-effect="none" hover-effect="grow" />}} 
 
 
-## 6. Praesent fermentum tempor
+## 6. 这里是展示了一个矩阵怎么写好像
 
-| Right | Center | Left |
-| -----:|:------:|:---- |
-|     1 |   2    | 3    |
+| 右 | 中 | 左 |
+| --:|:--:|:-- |
+|  1 | 2  | 3  |
 
-| default | is left
+| 默认 | 在左
 | --------|--------
-|    42   |   foo
+|    好き   |   😄

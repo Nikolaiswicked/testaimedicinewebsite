@@ -1,39 +1,36 @@
 ---
 categories:
 - tools
-date: "1985-03-20T20:00:00+01:00"
+date: "2037-03-18T20:00:00+01:00"
 icon: fas fa-lock-open
 resImgTeaser: teaserpics/wikipedia.org/emacs-jokes.png
 tags:
 - editor
 - emacs
-title: Emacs Jokes
+title: Emacs笑话
 ---
 
-Richard M. Stallman (RMS, widely known for creating EMACS) is writing
-a UNIX clone called GNU (which means Gnu's Not Unix--a recursive
+Richard M. Stallman (RMS,因创造EMACS而被熟知) 正在写一个UNIX克隆叫做GNU (意思是Gnu's Not Unix--a recursive
 acronym). 
 
-This seems to open the way to a whole gnu class of jokes.  For
-example:
+这似乎为整个 gnu 类笑话开辟了道路。 比如：
 
 <!--more-->
 
-> Q:  What do you call a person who hacks while wearing no clothes?  
-> A:  A gnudist.
+> Q:  不穿衣服黑客的人叫什么？ 
+> A:  裸体主义者。
 
-> Q:  What do you call an eligible young hacker?  
-> A:  Gnubile.
+> Q:  您如何称呼合格的年轻黑客？ 
+> A:  Gnubile。
 
-> Q:  What is a hacker's favorite candy?  
-> A:  Gnugat.   (Though it contains little gnutrition.)
+> Q:  黑客最喜欢的糖果是什么？ 
+> A:  Gnugat。  (虽然它含有很少的营养。)
 
-> Q:  What do you call a computer filled with air?  
-> A:  Gnumatic.
+> Q:  充满空气的计算机叫什么？ 
+> A:  Gnumatic。
 
-> Q:  What do you call a novice hacker who keeps pestering you
->     with foolish questions?  
-> A:  A gnuisance.
+> Q:  一直缠着你问愚蠢问题的新手黑客怎么称呼？
+> A:  一个gnuisance。
 
 > Q:  What do you call a subtle, clever hack in the favorite language?  
 > A:  A gnuanCe.
@@ -44,15 +41,15 @@ example:
 > Q:  What do you call a hacker who collects coins?  
 > A:  A gnumismatist.
 
-Well, there are more, just too gnumerous to tell all at once.  I think
+嗯，还有更多，只是太多了，无法一下子说完，我想。
 
 
 # elvis@gnu.ai.mit.edu
 ```
-From: elvis@gnu.ai.mit.edu
-To: emacs-19-bugs@gnu.ai.mit.edu
-Subject: missing from etc/emacs.names
-Date: Thu, 20 May 93 02:21:27 edt
+来自: elvis@gnu.ai.mit.edu
+给: emacs-19-bugs@gnu.ai.mit.edu
+主题: missing from etc/emacs.names
+日期: Thu, 20 May 93 02:21:27 edt
 ```
 
 
@@ -64,13 +61,13 @@ Computer
 Software
 ```
 
-Just so you boys know the score.
+只是为了让你们知道比分。
 
-Thank you very much,  
-The King
+非常感谢，
+国王
 
 
-## What does it mean
+## 这是什么意思？
 ```
 From: The Unknown User <anonymous@nowhere.uucp>
 Subject: EMACS -- What does it mean?

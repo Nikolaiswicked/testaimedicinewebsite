@@ -1,7 +1,7 @@
 ---
 icon: fa fa-search
 resImgTeaser: teaserpics/pixabay.com/logo-google-1991840_640.png
-title: Search
+title: 搜索
 type: search
 ---
 

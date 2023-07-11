@@ -4,60 +4,77 @@ taxonomies:
   category: categories
   tag: tags
 menu:
+# name:按钮显示名称
+# pre:按钮图标
+# url:按钮链接到哪一页
+# weight：按钮位置顺序
+      
   main:
-    - name: Home
-      pre: fas fa-home
-      url: /index.html
-      weight: 1
-    - name: Contact
+  # “首页”按钮设置
+    - name: 首页 #按钮显示名称
+      pre: fas fa-home #按钮图标
+      url: /index.html #按钮链接到哪一页
+      weight: 1 #按钮位置顺序
+      
+  # “联系我们”按钮设置
+    - name: 联系我们
       pre: far fa-address-card
       url: /contact
       weight: 2
-    - name: Pages
-      pre: fas fa-list
+  
+  #“我的收藏”按钮设置
+    - name: 我的收藏
+      pre: fas fa-star
       url: /pages
       weight: 3
-    - identifier: theme
-      name: Theme
+      
+  # “资讯”按钮设置  
+    - identifier: information
+      name: 资讯
       pre: fas fa-info-circle
       weight: 4
-    - name: About
-      parent: theme
+  #“资讯”子目录按钮
+    - name: 关于我们
+      parent: information
       pre: fas fa-info fa-fw
       url: /pages/hugo-theme-w3css-basic/
       weight: 1
-    - name: Images
-      parent: theme
+    - name: 图库
+      parent: information
       pre: far fa-images fa-fw
       url: /pages/hugo-theme-w3css-basic/images-taken-from/
       weight: 2
-    - name: Showcase
-      parent: theme
+    - name: 工具查看
+      parent: information
       pre: fas fa-eye fa-fw
       url: /pages/showcase/
       weight: 3
-    - name: Blog
+      
+  # “社区”按钮设置
+    - name: 社区
       pre: fas fa-rss
       url: /blog
       weight: 5
-    - name: FAQ
+    
+  # “常见问题”按钮设置
+    - name: 常见问题
       pre: far fa-question-circle
       url: /faq
       weight: 6
-  topbar:
-    - name: GitHub
-      pre: fab fa-github
-      url: https://github.com/it-gro/hugo-theme-w3css-basic
-      weight: 1
-    - name: GitLab
-      pre: fab fa-gitlab
-      url: https://gitlab.com/it-gro
-      weight: 2
-    - name: Email
+      
+    - name: Twitter
+      pre: fab fa-twitter
+      url: https://twitter.com/i/flow/login?redirect_after_login=%2F
+      weight: 7
+    - name: Instagram
+      pre: fab fa-instagram
+      url: https://www.instagram.com
+      weight: 8
+    - name: E-mail
       pre: fas fa-envelope
       url: '#address'
-      weight: 5
-    - name: Search
+      weight: 9
+    - name: 搜索
       pre: fas fa-search
       url: /search
-      weight: 6
+      weight: 10
