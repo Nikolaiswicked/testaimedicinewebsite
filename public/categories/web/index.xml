@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on </title>
+    <link>http://example.com/categories/web/</link>
+    <description>Recent content in Web on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Nov 2017 08:44:12 +0100</lastBuildDate><atom:link href="http://example.com/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo - **highlight** :art:</title>
+      <link>http://example.com/blog/2017/11/hugo-highlight-chromastyles/</link>
+      <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/11/hugo-highlight-chromastyles/</guid>
+      <description>Hugo comes with reallly fast syntax highlighting from Chroma. From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it is built in Go and is really, really fast – and for the most important parts compatible with Pygments. See https://gohugo.io/content-management/syntax-highlighting for more.
+In this theme we set
+config.toml pygmentsUseClasses = true demo
+and provide static/css/syntax.css which is a copy of: static/css/syntax/syntax.&amp;lt;STYLE&amp;gt;.css
+The styles are: autumn borland bw colorful default emacs friendly fruity manni monokai murphy native pastie perldoc rrt tango trac vim vs</description>
+    </item>
+    
+  </channel>
+</rss>

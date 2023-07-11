@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>http://example.com/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>plot</title>
+      <link>http://example.com/tags/plot/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>http://example.com/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>http://example.com/tags/r-markdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>http://example.com/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression</title>
+      <link>http://example.com/tags/regression/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>http://example.com/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://example.com/tags/hugo/</link>
+      <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
+      
+      <guid>http://example.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pictures</title>
+      <link>http://example.com/tags/pictures/</link>
+      <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
+      
+      <guid>http://example.com/tags/pictures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resources</title>
+      <link>http://example.com/tags/resources/</link>
+      <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
+      
+      <guid>http://example.com/tags/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>http://example.com/tags/shortcodes/</link>
+      <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
+      
+      <guid>http://example.com/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>http://example.com/tags/web/</link>
+      <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
+      
+      <guid>http://example.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>images</title>
+      <link>http://example.com/tags/images/</link>
+      <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
+      
+      <guid>http://example.com/tags/images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>http://example.com/tags/showcase/</link>
+      <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
+      
+      <guid>http://example.com/tags/showcase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>license</title>
+      <link>http://example.com/tags/license/</link>
+      <pubDate>Fri, 08 Dec 2017 08:57:49 +0100</pubDate>
+      
+      <guid>http://example.com/tags/license/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>front</title>
+      <link>http://example.com/tags/front/</link>
+      <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
+      
+      <guid>http://example.com/tags/front/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorem</title>
+      <link>http://example.com/tags/lorem/</link>
+      <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
+      
+      <guid>http://example.com/tags/lorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fermentum</title>
+      <link>http://example.com/tags/fermentum/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>http://example.com/tags/fermentum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>folder10</title>
+      <link>http://example.com/tags/folder10/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>http://example.com/tags/folder10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>folder20</title>
+      <link>http://example.com/tags/folder20/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>http://example.com/tags/folder20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Malesuada</title>
+      <link>http://example.com/tags/malesuada/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>http://example.com/tags/malesuada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nullam</title>
+      <link>http://example.com/tags/nullam/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>http://example.com/tags/nullam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phasellus</title>
+      <link>http://example.com/tags/phasellus/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>http://example.com/tags/phasellus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rutrum</title>
+      <link>http://example.com/tags/rutrum/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>http://example.com/tags/rutrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tristique</title>
+      <link>http://example.com/tags/tristique/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>http://example.com/tags/tristique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logos</title>
+      <link>http://example.com/tags/logos/</link>
+      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
+      
+      <guid>http://example.com/tags/logos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>http://example.com/tags/go/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>editor</title>
+      <link>http://example.com/tags/editor/</link>
+      <pubDate>Sun, 10 Sep 2017 19:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/tags/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>http://example.com/tags/emacs/</link>
+      <pubDate>Sun, 10 Sep 2017 19:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>http://example.com/tags/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>http://example.com/tags/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>http://example.com/tags/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>http://example.com/tags/themes/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

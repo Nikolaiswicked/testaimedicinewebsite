@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vestibulum on </title>
+    <link>http://example.com/categories/vestibulum/</link>
+    <description>Recent content in Vestibulum on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Nov 2017 15:37:04 +0100</lastBuildDate><atom:link href="http://example.com/categories/vestibulum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convallis</title>
+      <link>http://example.com/pages/page-convallis/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>http://example.com/pages/page-convallis/</guid>
+      <description>Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.
+USE [master]; GO ALTER DATABASE [db_name_test] SET SINGLE_USER WITH ROLLBACK IMMEDIATE; GO ALTER DATABASE [db_name_test] Modify Name = &amp;#39;db_name_dev&amp;#39;; GO ALTER DATABASE [db_name_dev] SET MULTI_USER WITH ROLLBACK IMMEDIATE; GO Phasellus lacus. Etiam laoreet quam sed arcu.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+baseURL: http://example.com
+theme: hugo-theme-w3css-basic
+taxonomies:
+  category: categories
+  tag: tags
+menu:
+  main:
+    - name: Home
+      pre: fas fa-home
+      url: /index.html
+      weight: 1
+    - name: Contact
+      pre: far fa-address-card
+      url: /contact
+      weight: 2
+    - name: Pages
+      pre: fas fa-list
+      url: /pages
+      weight: 3
+    - identifier: theme
+      name: Theme
+      pre: fas fa-info-circle
+      weight: 4
+    - name: About
+      parent: theme
+      pre: fas fa-info fa-fw
+      url: /pages/hugo-theme-w3css-basic/
+      weight: 1
+    - name: Images
+      parent: theme
+      pre: far fa-images fa-fw
+      url: /pages/hugo-theme-w3css-basic/images-taken-from/
+      weight: 2
+    - name: Showcase
+      parent: theme
+      pre: fas fa-eye fa-fw
+      url: /pages/showcase/
+      weight: 3
+    - name: Blog
+      pre: fas fa-rss
+      url: /blog
+      weight: 5
+    - name: FAQ
+      pre: far fa-question-circle
+      url: /faq
+      weight: 6
+  topbar:
+    - name: GitHub
+      pre: fab fa-github
+      url: https://github.com/it-gro/hugo-theme-w3css-basic
+      weight: 1
+    - name: GitLab
+      pre: fab fa-gitlab
+      url: https://gitlab.com/it-gro
+      weight: 2
+    - name: Email
+      pre: fas fa-envelope
+      url: '#address'
+      weight: 5
+    - name: Search
+      pre: fas fa-search
+      url: /search
+      weight: 6

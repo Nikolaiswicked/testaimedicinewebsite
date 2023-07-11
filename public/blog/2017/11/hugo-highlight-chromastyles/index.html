@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang=''>
+  
+<head>
+  <!-- hi there - what do you expect to see? ...  -->
+   
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
+  <meta name="viewport"              content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="robots"                content="all,follow" />
+  <meta name="googlebot"             content="index,follow,snippet,archive" />
+  <meta name="author"                content='anonymous' />
+  <meta name="keywords"              content=' Hugo, Web ' />
+  
+  <meta name="description"           content='Hugo comes with reallly fast syntax highlighting from Chroma. From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it is built in Go and is …' />
+  
+  
+  <meta property="og:title"          content="Hugo - **highlight** :art:" /> 
+  
+  <meta property="og:url"            content="http://example.com/blog/2017/11/hugo-highlight-chromastyles/" /> 
+  <meta property="og:image"          content='http://example.com/images/favicons/apple-touch-icon.png' /> 
+
+  
+  <meta property="twitter:title"          content="Hugo - **highlight** :art:" /> 
+  
+  <meta property="twitter:image"          content='http://example.com/images/favicons/apple-touch-icon.png' /> 
+
+
+  <title></title>
+
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  
+<script src='/js/custom.top.js?1689073263'></script>
+ 
+
+  
+<link rel="stylesheet" href='/vendor/fontawesome/5.9.0/css/all.css' />
+<link rel="stylesheet" href='/vendor/daneden.github.io/animate.css/animate.min.css?1689073263' />
+<link rel="stylesheet" href='/vendor/OwlCarousel2/assets/owl.carousel.min.css?1689073263' />
+<link rel="stylesheet" href='/vendor/OwlCarousel2/assets/owl.theme.default.min.css?1689073263' />
+
+<link rel="stylesheet" href='/vendor/w3css/4/4.15/w3.css' />
+  <link rel="stylesheet" id="theme-colors" href='/vendor/w3css/4/w3-theme-red.css?1689073263' />
+
+
+
+<link href="http://example.com/css/syntax.css?1689073263" rel="stylesheet"> 
+<link rel="stylesheet" href='/css/w3css-basic.css?1689073263' />
+<link rel="stylesheet" href='/css/res-gallery.css?1689073263' />
+
+<link rel="stylesheet" href='/css/custom.css?1689073263' />
+
+  
+  
+<style>
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-italic.eot');  
+  src: local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'),
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-italic.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-italic.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-italic.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-italic.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-italic.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-regular.eot');  
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'),
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-regular.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-regular.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-regular.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-regular.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-regular.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700.eot');  
+  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'),
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.eot');  
+  src: local('Ubuntu Mono Bold Italic'), local('UbuntuMono-BoldItalic'),
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.svg') format('svg');  
+}
+
+
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-italic.eot');  
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'),
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-italic.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-italic.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-italic.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-italic.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-italic.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-regular.eot');  
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-regular.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-regular.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-regular.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-regular.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-regular.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300.eot');  
+  src: local('Ubuntu Light'), local('Ubuntu-Light'),
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 300;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300italic.eot');  
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'),
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300italic.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300italic.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300italic.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300italic.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-300italic.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500.eot');  
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 500;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500italic.eot');  
+  src: local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'),
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500italic.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500italic.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500italic.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500italic.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-500italic.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700.eot');  
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700.svg') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 700;
+  src: url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700italic.eot');  
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'),
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700italic.eot') format('embedded-opentype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700italic.woff2') format('woff2'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700italic.woff') format('woff'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700italic.ttf') format('truetype'),  
+       url('http://example.com/vendor/google/fonts/ubuntu-v11-latin-700italic.svg') format('svg');  
+}
+
+</style>
+
+
+  <style>
+    html, body, h1, h2, h3, h4, h5, h6
+    {
+        font-family: 'Ubuntu Mono'     , monospace;
+        font-family: 'Ubuntu'          , sans-serif;
+    }
+  </style>
+
+  
+  
+  
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+
+<link href='http://example.com/index.xml' rel="alternate" type="application/rss+xml" title=' (rss+xml alternate)' />
+
+</head>
+
+
+  <body onload='onload()' >
+    <div id="all" class="w3-theme">
+      <header>
+        
+
+
+
+<div class='w3-bar w3-hide-small w3-hide-medium w3-theme-dark '>
+
+<a href='/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+
+<a href='/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+
+<a href='/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+    <a href='/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+
+<a href='/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+
+<a href='/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>  
+
+
+</div> 
+<div class='w3-bar w3-hide-small w3-hide-large w3-theme-dark '>
+
+<a href='/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+
+<a href='/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+
+<a href='/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+    <a href='/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+
+<a href='/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+
+<a href='/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a> 
+
+
+</div> 
+
+<div id='nav-small-no-js' class='w3-bar w3-hide-medium w3-hide-large w3-theme-dark '>
+
+<a href='/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+
+<a href='/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+
+<a href='/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+    <a href='/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+
+<a href='/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+
+<a href='/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+
+</div> 
+
+
+<script>
+  function showMenu() {
+    var x = document.getElementById('nav-small-js-bar-block');
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>
+<noscript>
+  <style>
+    #nav-small-js {display:none;}
+  </style>
+<div id='nav-small-no-js' class='w3-bar w3-small w3-hide-medium w3-hide-large w3-theme-dark '>
+
+<a href='/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+
+<a href='/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+
+<a href='/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+    <a href='/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+
+<a href='/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+
+<a href='/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+</div> 
+
+</noscript>
+
+      </header>
+      <div id="canvas" class='w3-container w3-theme-l4 '>
+          <h1 class='w3-panel w3-theme-l2 '>
+            Hugo - <strong>highlight</strong> 🎨
+            <span style="float:right;"><button id="btnback" class="headline-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button></span>
+          </h1>
+        
+<div class="w3-left"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;24. November 2017</div>
+<div class="w3-right-align "><a href='/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open"></i></a>
+    <a href='/categories/web' class="taxonomy-button w3-button">Web</a><a href='/tags' class="taxonomy-button w3-button"><i class="fas fa-tags"></i></a>
+    <a href='/tags/hugo' class="taxonomy-button w3-button">Hugo</a>
+</div> 
+  
+       
+<img
+  class="w3-hide-small w3-image w3-right w3-round "
+  style="max-width:400px; max-height:200px; width: auto; height: auto; margin: 8px 0px  8px 8px; "
+  src='http://example.com/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_300x0_resize_box_3.png'
+  alt='/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_300x0_resize_box_3.png'
+>
+
+
+
+        <p>Hugo comes with reallly <strong>fast syntax highlighting</strong> from Chroma.
+From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
+is built in Go and is really, really fast – and for the most important
+parts compatible with Pygments.
+See <a href="https://gohugo.io/content-management/syntax-highlighting">https://gohugo.io/content-management/syntax-highlighting</a> for more.</p>
+<p>In this theme we set</p>
+<p><code>config.toml</code>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">pygmentsUseClasses</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">demo</span></span></span></code></pre></div>
+<p>and provide <code>static/css/syntax.css</code> which is a copy of: <code>static/css/syntax/syntax.&lt;STYLE&gt;.css</code></p>
+<p>The styles are:
+<code>autumn borland bw colorful default emacs friendly fruity manni monokai murphy native pastie perldoc rrt tango trac vim vs</code></p>
+<p>These files were created with: <code>hugo gen chromastyles --style=vs &gt; syntax.vs.css</code>
+Available styles are listed here: <a href="https://help.farbox.com/pygments.html">https://help.farbox.com/pygments.html</a></p>
+<p>An alternative would be:</p>
+<p><code>config.toml</code>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">pygmentsUseClasses</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># choose one:</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;autumn&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;borland&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;bw&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;colorful&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;default&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">pygmentsStyle</span> = <span style="color:#e6db74">&#34;emacs&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;friendly&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;fruity&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;manni&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;monokai&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;murphy&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;native&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;pastie&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;perldoc&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;rrt&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;tango&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;trac&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;vim&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#pygmentsStyle = &#34;vs&#34;</span></span></span></code></pre></div>
+<p>These are the supported languages:</p>
+
+<dl>
+<dt>ABNF</dt>
+<dd>abnf</dd>
+<dt>ANTLR</dt>
+<dd>antlr</dd>
+<dt>APL</dt>
+<dd>apl</dd>
+<dt>ActionScript</dt>
+<dd>actionscript, as</dd>
+<dt>ActionScript 3</dt>
+<dd>actionscript3, as, as3</dd>
+<dt>Ada</dt>
+<dd>ada, ada2005, ada95, adb, ads</dd>
+<dt>Angular2</dt>
+<dd>ng2</dd>
+<dt>ApacheConf</dt>
+<dd>aconf, apache, apacheconf, conf, htaccess</dd>
+<dt>AppleScript</dt>
+<dd>applescript</dd>
+<dt>Awk</dt>
+<dd>awk, gawk, mawk, nawk</dd>
+<dt>BNF</dt>
+<dd>bnf</dd>
+<dt>Base Makefile</dt>
+<dd>bsdmake, mak, make, makefile, mf, mk</dd>
+<dt>Bash</dt>
+<dd>bash, bashrc, ebuild, eclass, exheres-0, exlib, ksh, sh, shell, zsh, zshrc</dd>
+<dt>Batchfile</dt>
+<dd>bat, batch, cmd, dosbatch, winbatch</dd>
+<dt>BlitzBasic</dt>
+<dd>b3d, bb, blitzbasic, bplus, decls</dd>
+<dt>Brainfuck</dt>
+<dd>b, bf, brainfuck</dd>
+<dt>C</dt>
+<dd>c, h, idc</dd>
+<dt>C#</dt>
+<dd>c#, cs, csharp</dd>
+<dt>C&#43;&#43;</dt>
+<dd>C, CPP, H, c++, cc, cp, cpp, cxx, h++, hh, hpp, hxx</dd>
+<dt>CFEngine3</dt>
+<dd>cf, cf3, cfengine3</dd>
+<dt>CMake</dt>
+<dd>cmake, txt</dd>
+<dt>COBOL</dt>
+<dd>COB, CPY, cob, cobol, cpy</dd>
+<dt>CSS</dt>
+<dd>css</dd>
+<dt>Cap&#39;n Proto</dt>
+<dd>capnp</dd>
+<dt>Ceylon</dt>
+<dd>ceylon</dd>
+<dt>ChaiScript</dt>
+<dd>chai, chaiscript</dd>
+<dt>Cheetah</dt>
+<dd>cheetah, spitfire, spt, tmpl</dd>
+<dt>Clojure</dt>
+<dd>clj, clojure</dd>
+<dt>CoffeeScript</dt>
+<dd>coffee, coffee-script, coffeescript</dd>
+<dt>Common Lisp</dt>
+<dd>cl, common-lisp, lisp</dd>
+<dt>Coq</dt>
+<dd>coq, v</dd>
+<dt>Crystal</dt>
+<dd>cr, crystal</dd>
+<dt>Cython</dt>
+<dd>cython, pxd, pxi, pyrex, pyx</dd>
+<dt>DTD</dt>
+<dd>dtd</dd>
+<dt>Dart</dt>
+<dd>dart</dd>
+<dt>Diff</dt>
+<dd>diff, patch, udiff</dd>
+<dt>Django/Jinja</dt>
+<dd>django, jinja</dd>
+<dt>Docker</dt>
+<dd>docker, dockerfile</dd>
+<dt>EBNF</dt>
+<dd>ebnf</dd>
+<dt>Elixir</dt>
+<dd>elixir, ex, exs</dd>
+<dt>Elm</dt>
+<dd>elm</dd>
+<dt>EmacsLisp</dt>
+<dd>el, elisp, emacs, emacs-lisp</dd>
+<dt>Erlang</dt>
+<dd>erl, erlang, es, escript, hrl</dd>
+<dt>FSharp</dt>
+<dd>fs, fsharp, fsi</dd>
+<dt>Factor</dt>
+<dd>factor</dd>
+<dt>Fish</dt>
+<dd>fish, fishshell, load</dd>
+<dt>Forth</dt>
+<dd>forth, frt, fs</dd>
+<dt>Fortran</dt>
+<dd>F03, F90, f03, f90, fortran</dd>
+<dt>GAS</dt>
+<dd>S, asm, gas, s</dd>
+<dt>GDScript</dt>
+<dd>gd, gdscript</dd>
+<dt>GLSL</dt>
+<dd>frag, geo, glsl, vert</dd>
+<dt>Genshi</dt>
+<dd>genshi, kid, xml+genshi, xml+kid</dd>
+<dt>Genshi HTML</dt>
+<dd>html+genshi, html+kid</dd>
+<dt>Genshi Text</dt>
+<dd>genshitext</dd>
+<dt>Gnuplot</dt>
+<dd>gnuplot, plot, plt</dd>
+<dt>Go</dt>
+<dd>go, golang</dd>
+<dt>Go HTML Template</dt>
+<dd>go-html-template</dd>
+<dt>Go Text Template</dt>
+<dd>go-text-template</dd>
+<dt>Groovy</dt>
+<dd>gradle, groovy</dd>
+<dt>HTML</dt>
+<dd>htm, html, xhtml, xslt</dd>
+<dt>HTTP</dt>
+<dd>http</dd>
+<dt>Handlebars</dt>
+<dd>handlebars</dd>
+<dt>Haskell</dt>
+<dd>haskell, hs</dd>
+<dt>Haxe</dt>
+<dd>haxe, hx, hxsl</dd>
+<dt>Hexdump</dt>
+<dd>hexdump</dd>
+<dt>Hy</dt>
+<dd>hy, hylang</dd>
+<dt>INI</dt>
+<dd>cfg, dosini, inf, ini</dd>
+<dt>Idris</dt>
+<dd>idr, idris</dd>
+<dt>Io</dt>
+<dd>io</dd>
+<dt>JSON</dt>
+<dd>json</dd>
+<dt>JSX</dt>
+<dd>jsx, react</dd>
+<dt>Java</dt>
+<dd>java</dd>
+<dt>JavaScript</dt>
+<dd>javascript, js, jsm</dd>
+<dt>Julia</dt>
+<dd>jl, julia</dd>
+<dt>Kotlin</dt>
+<dd>kotlin, kt</dd>
+<dt>LLVM</dt>
+<dd>ll, llvm</dd>
+<dt>Lighttpd configuration file</dt>
+<dd>lighttpd, lighty</dd>
+<dt>Lua</dt>
+<dd>lua, wlua</dd>
+<dt>Mako</dt>
+<dd>mako, mao</dd>
+<dt>Mason</dt>
+<dd>m, mason, mc, mhtml, mi</dd>
+<dt>Mathematica</dt>
+<dd>cdf, ma, mathematica, mma, nb, nbp</dd>
+<dt>MiniZinc</dt>
+<dd>MZN, dzn, fzn, minizinc, mzn</dd>
+<dt>Modula-2</dt>
+<dd>def, m2, mod, modula2</dd>
+<dt>MorrowindScript</dt>
+<dd>morrowind, mwscript</dd>
+<dt>MySQL</dt>
+<dd>mysql, sql</dd>
+<dt>Myghty</dt>
+<dd>myghty, myt</dd>
+<dt>NASM</dt>
+<dd>ASM, asm, nasm</dd>
+<dt>Newspeak</dt>
+<dd>newspeak, ns2</dd>
+<dt>Nginx configuration file</dt>
+<dd>conf, nginx</dd>
+<dt>Nim</dt>
+<dd>nim, nimrod</dd>
+<dt>Nix</dt>
+<dd>nix, nixos</dd>
+<dt>OCaml</dt>
+<dd>ml, mli, mll, mly, ocaml</dd>
+<dt>Objective-C</dt>
+<dd>h, m, obj-c, objc, objective-c, objectivec</dd>
+<dt>Octave</dt>
+<dd>m, octave</dd>
+<dt>PHP</dt>
+<dd>inc, php, php3, php4, php5, php[345]</dd>
+<dt>PL/pgSQL</dt>
+<dd>plpgsql</dd>
+<dt>POVRay</dt>
+<dd>inc, pov</dd>
+<dt>PacmanConf</dt>
+<dd>conf, pacmanconf</dd>
+<dt>Perl</dt>
+<dd>perl, pl, pm, t</dd>
+<dt>Pig</dt>
+<dd>pig</dd>
+<dt>PkgConfig</dt>
+<dd>pc, pkgconfig</dd>
+<dt>PostScript</dt>
+<dd>eps, postscr, postscript, ps</dd>
+<dt>PostgreSQL SQL dialect</dt>
+<dd>postgres, postgresql</dd>
+<dt>PowerShell</dt>
+<dd>posh, powershell, ps1, psm1</dd>
+<dt>Prolog</dt>
+<dd>ecl, pl, pro, prolog</dd>
+<dt>Protocol Buffer</dt>
+<dd>proto, protobuf</dd>
+<dt>Puppet</dt>
+<dd>pp, puppet</dd>
+<dt>Python</dt>
+<dd>py, python, pyw, sage, sc, tac</dd>
+<dt>Python 3</dt>
+<dd>py3, python3</dd>
+<dt>QBasic</dt>
+<dd>BAS, bas, basic, qbasic</dd>
+<dt>R</dt>
+<dd>R, Renviron, Rhistory, Rprofile, S, r, s, splus</dd>
+<dt>Racket</dt>
+<dd>racket, rkt, rktd, rktl</dd>
+<dt>Ragel</dt>
+<dd>ragel</dd>
+<dt>Rexx</dt>
+<dd>arexx, rex, rexx, rx</dd>
+<dt>Ruby</dt>
+<dd>duby, gemspec, rake, rb, rbw, rbx, ruby</dd>
+<dt>Rust</dt>
+<dd>in, rs, rust</dd>
+<dt>SCSS</dt>
+<dd>scss</dd>
+<dt>SPARQL</dt>
+<dd>rq, sparql</dd>
+<dt>SQL</dt>
+<dd>sql</dd>
+<dt>Sass</dt>
+<dd>sass</dd>
+<dt>Scala</dt>
+<dd>scala</dd>
+<dt>Scheme</dt>
+<dd>scheme, scm, ss</dd>
+<dt>Scilab</dt>
+<dd>sce, sci, scilab, tst</dd>
+<dt>Smalltalk</dt>
+<dd>smalltalk, squeak, st</dd>
+<dt>Smarty</dt>
+<dd>smarty, tpl</dd>
+<dt>Snobol</dt>
+<dd>snobol</dd>
+<dt>Solidity</dt>
+<dd>sol, solidity</dd>
+<dt>SquidConf</dt>
+<dd>conf, squid, squid.conf, squidconf</dd>
+<dt>Swift</dt>
+<dd>swift</dd>
+<dt>TASM</dt>
+<dd>ASM, asm, tasm</dd>
+<dt>TOML</dt>
+<dd>toml</dd>
+<dt>Tcl</dt>
+<dd>rvt, tcl</dd>
+<dt>Tcsh</dt>
+<dd>csh, tcsh</dd>
+<dt>TeX</dt>
+<dd>aux, latex, tex, toc</dd>
+<dt>Termcap</dt>
+<dd>src, termcap</dd>
+<dt>Terminfo</dt>
+<dd>src, terminfo</dd>
+<dt>Terraform</dt>
+<dd>terraform, tf</dd>
+<dt>Thrift</dt>
+<dd>thrift</dd>
+<dt>Transact-SQL</dt>
+<dd>t-sql, tsql</dd>
+<dt>Turtle</dt>
+<dd>ttl, turtle</dd>
+<dt>Twig</dt>
+<dd>twig</dd>
+<dt>TypeScript</dt>
+<dd>ts, tsx, typescript</dd>
+<dt>TypoScript</dt>
+<dd>ts, txt, typoscript</dd>
+<dt>TypoScriptCssData</dt>
+<dd>typoscriptcssdata</dd>
+<dt>TypoScriptHtmlData</dt>
+<dd>typoscripthtmldata</dd>
+<dt>VHDL</dt>
+<dd>vhd, vhdl</dd>
+<dt>VimL</dt>
+<dd>exrc, gvimrc, vim, vimrc</dd>
+<dt>WDTE</dt>
+<dd>wdte</dd>
+<dt>XML</dt>
+<dd>rss, svg, wsdl, wsf, xml, xsd, xsl, xslt</dd>
+<dt>Xorg</dt>
+<dd>conf, xorg.conf</dd>
+<dt>YAML</dt>
+<dd>yaml, yml</dd>
+<dt>cfstatement</dt>
+<dd>cfs</dd>
+<dt>markdown</dt>
+<dd>markdown, md, mkd</dd>
+<dt>reStructuredText</dt>
+<dd>rest, restructuredtext, rst</dd>
+<dt>reg</dt>
+<dd>reg, registry</dd>
+<dt>systemverilog</dt>
+<dd>sv, svh, systemverilog</dd>
+<dt>verilog</dt>
+<dd>v, verilog</dd>
+</dl>
+
+<p>Check <a href="https://github.com/alecthomas/chroma">https://github.com/alecthomas/chroma</a> for more information.</p>
+
+         
+
+  
+
+  
+  
+
+<div class='w3-card-4 w3-center w3-round-xxlarge w3-margin-top  w3-margin-bottom w3-theme-l1 '>
+  <div class="w3-container w3-padding-small ">
+    <a href='/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open" aria-hidden="true"></i>&nbsp;Categories:</a>
+      <a href='/categories/development' class="taxonomy-button w3-button">development (2)</a>
+      <a href='/categories/eyecatcher' class="taxonomy-button w3-button">eyecatcher (2)</a>
+      <a href='/categories/features' class="taxonomy-button w3-button">features (6)</a>
+      <a href='/categories/golang' class="taxonomy-button w3-button">golang (2)</a>
+      <a href='/categories/hugo-basic-example' class="taxonomy-button w3-button">hugo-basic-example (5)</a>
+      <a href='/categories/know-how' class="taxonomy-button w3-button">know-how (12)</a>
+      <a href='/categories/legal' class="taxonomy-button w3-button">legal (10)</a>
+      <a href='/categories/photocards' class="taxonomy-button w3-button">photocards (9)</a>
+      <a href='/categories/programming' class="taxonomy-button w3-button">programming (1)</a>
+      <a href='/categories/r' class="taxonomy-button w3-button">r (1)</a>
+      <a href='/categories/this-theme' class="taxonomy-button w3-button">this-theme (10)</a>
+      <a href='/categories/tools' class="taxonomy-button w3-button">tools (6)</a>
+      <a href='/categories/vestibulum' class="taxonomy-button w3-button">vestibulum (1)</a>
+      <a href='/categories/web' class="taxonomy-button w3-button">web (1)</a>
+
+<br>
+   <a href='/tags' class="taxonomy-button w3-button"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;Tags:</a>
+      <a href='/tags/development' class="taxonomy-button w3-button">development (2)</a>
+      <a href='/tags/editor' class="taxonomy-button w3-button">editor (2)</a>
+      <a href='/tags/emacs' class="taxonomy-button w3-button">emacs (2)</a>
+      <a href='/tags/fermentum' class="taxonomy-button w3-button">fermentum (6)</a>
+      <a href='/tags/folder10' class="taxonomy-button w3-button">folder10 (2)</a>
+      <a href='/tags/folder20' class="taxonomy-button w3-button">folder20 (10)</a>
+      <a href='/tags/front' class="taxonomy-button w3-button">front (17)</a>
+      <a href='/tags/go' class="taxonomy-button w3-button">go (3)</a>
+      <a href='/tags/golang' class="taxonomy-button w3-button">golang (2)</a>
+      <a href='/tags/hugo' class="taxonomy-button w3-button">hugo (6)</a>
+      <a href='/tags/images' class="taxonomy-button w3-button">images (2)</a>
+      <a href='/tags/license' class="taxonomy-button w3-button">license (10)</a>
+      <a href='/tags/logos' class="taxonomy-button w3-button">logos (1)</a>
+      <a href='/tags/lorem' class="taxonomy-button w3-button">lorem (17)</a>
+      <a href='/tags/malesuada' class="taxonomy-button w3-button">malesuada (2)</a>
+      <a href='/tags/nullam' class="taxonomy-button w3-button">nullam (2)</a>
+      <a href='/tags/phasellus' class="taxonomy-button w3-button">phasellus (2)</a>
+      <a href='/tags/pictures' class="taxonomy-button w3-button">pictures (10)</a>
+      <a href='/tags/plot' class="taxonomy-button w3-button">plot (1)</a>
+      <a href='/tags/r-markdown' class="taxonomy-button w3-button">r-markdown (1)</a>
+      <a href='/tags/regression' class="taxonomy-button w3-button">regression (1)</a>
+      <a href='/tags/resources' class="taxonomy-button w3-button">resources (4)</a>
+      <a href='/tags/rutrum' class="taxonomy-button w3-button">rutrum (1)</a>
+      <a href='/tags/shortcodes' class="taxonomy-button w3-button">shortcodes (6)</a>
+      <a href='/tags/showcase' class="taxonomy-button w3-button">showcase (9)</a>
+      <a href='/tags/templates' class="taxonomy-button w3-button">templates (1)</a>
+      <a href='/tags/themes' class="taxonomy-button w3-button">themes (1)</a>
+      <a href='/tags/tristique' class="taxonomy-button w3-button">tristique (1)</a>
+      <a href='/tags/web' class="taxonomy-button w3-button">web (4)</a>
+
+  </div> 
+</div> 
+
+      </div>
+
+      <footer>
+        
+<div id="footer" class='w3-container w3-theme-d5 '>
+
+  <div class="w3-margin-bottom w3-row w3-mobile">
+    <div class="w3-col w3-third">
+      <h4>About us</h4>
+      <div class="notranslate"><p>Vel illum <strong>dolore</strong> eu</p>
+<ul>
+<li>feugiat nulla</li>
+<li>facilisis at vero.</li>
+</ul>
+<p>Nam vestibulum accumsan nisl.</p>
+</div>
+    </div>  
+    <div class="w3-col w3-third">
+      <h4>Recent Posts</h4>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/blog/2020-12-01-r-rmarkdown/'> 
+           
+
+
+          </a>
+          <a class="no-decoration" href='/blog/2020-12-01-r-rmarkdown/'>Hello R Markdown</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/blog/2018/05/hugo-amet/'> 
+          
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='http://example.com/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_3.png'
+  alt='/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_3.png'
+>
+
+
+          </a>
+          <a class="no-decoration" href='/blog/2018/05/hugo-amet/'>Hugo - amnet</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/blog/2017/11/hugo-highlight-chromastyles/'> 
+          
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='http://example.com/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_3.png'
+  alt='/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_3.png'
+>
+
+
+          </a>
+          <a class="no-decoration" href='/blog/2017/11/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> 🎨</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/blog/2017/11/hugo-dolor/'> 
+          
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='http://example.com/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_3.png'
+  alt='/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_3.png'
+>
+
+
+          </a>
+          <a class="no-decoration" href='/blog/2017/11/hugo-dolor/'>Hugo - dolor</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/blog/2017/11/hugo-lorem/'> 
+          
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='http://example.com/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_3.png'
+  alt='/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_3.png'
+>
+
+
+          </a>
+          <a class="no-decoration" href='/blog/2017/11/hugo-lorem/'>Hugo - lorem</a>
+        </div> 
+
+    </div>    
+    <div id="address" class="w3-col w3-third">
+      <h4>Contact</h4>
+      <div class="notranslate"><p><strong>nobis eleifend</strong>
+<strong>Soluta nobis eleifend</strong>
+illum dolore eu feugiat
+3612 Steffisburg
+consectetuer adipiscing</p>
+<p><strong>Switzerland</strong></p>
+</div><br/>
+      
+    </div>
+
+  </div>  
+</div>  
+
+<div class='w3-cell-row w3-small w3-theme-l3 '>
+
+  <div class="w3-cell w3-cell-middle">
+    Copyright (c) 2017 .. 2023, <em>lobortis nisl</em> ut aliquip ex ea commodo consequat
+  </div> 
+
+  <div class="w3-cell w3-cell-middle">
+    <div class="w3-right">
+      created with <a href="https://gohugo.io">Hugo 0.101.0</a>
+    </div> 
+  </div>   
+
+</div>     
+
+      
+      </footer>
+
+    </div>
+    
+
+<script src='/vendor/jquery/jquery-3.4.1.slim.min.js'></script> 
+
+<script src='/js/custom.bottom.js?1689073263'></script>
+
+
+    <script>
+      function onload(){
+         document.getElementById("btnback").style.visibility="visible";
+      }
+    </script>
+
+  </body>
+  
+</html>

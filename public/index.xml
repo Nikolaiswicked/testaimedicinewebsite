@@ -1,0 +1,1701 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> – </title>
+    <link>http://example.com/</link>
+    <description>Recent Hugo news from gohugo.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>http://example.com/img/hugo.png</url>
+      <title>GoHugo.io</title>
+      <link>http://example.com/</link>
+    </image>
+    
+		  <atom:link href="http://example.com/index.xml" rel='self' type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog: Hello R Markdown</title>
+      <link>http://example.com/blog/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>http://example.com/blog/2020-12-01-r-rmarkdown/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;http://example.com/blog/2020-12-01-r-rmarkdown/index_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Hugo - amnet</title>
+      <link>http://example.com/blog/2018/05/hugo-amet/</link>
+      <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
+      
+      <guid>http://example.com/blog/2018/05/hugo-amet/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci
+commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget,
+lacus.&lt;/p&gt;
+&lt;p&gt;Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis
+vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
+&lt;p&gt;Etiam vel neque nec dui dignissim bibendum. Vivamus id enim. Phasellus neque
+orci, porta a, aliquet quis, semper a, massa. Phasellus purus. Pellentesque
+tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
+&lt;p&gt;&lt;pre class=&#34;w3-code notranslate&#34;&gt;
+{{&amp;lt; res-figure &amp;#34;.&amp;#34; &amp;#34;hugo-lorem.png&amp;#34; &amp;#34;Resize&amp;#34; &amp;#34;150x&amp;#34; /&amp;gt;}}
+&lt;/pre&gt;
+
+
+
+             
+
+
+
+    &lt;figure class=&#39;res-figure no-photoswipe&#39;  style=&#34;width: 150px;&#34;&gt;
+      &lt;img src=&#34;http://example.com/blog/2018/05/hugo-amet/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_150x0_resize_box_3.png&#34;
+        alt=&#34;hugo-lorem.png&#34;
+        width=&#34;150&#34; height=&#34;150&#34;
+      &gt;
+      &lt;figcaption class=&#39;res-figcaption&#39;&gt;hugo-lorem.png
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;  
+&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+montes, nascetur ridiculus mus.&lt;/p&gt;
+&lt;p&gt;
+&lt;script src=&#39;http://example.com/vendor/jquery/jquery-3.4.1.slim.min.js&#39;&gt;&lt;/script&gt;
+&lt;script src=&#39;http://example.com/js/res-gallery-load-photoswipe.js&#39;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;http://example.com/vendor/photoswipe/photoswipe.css&#39; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;http://example.com/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
+&lt;script src=&#39;http://example.com/vendor/photoswipe/photoswipe.min.js&#39;&gt;      &lt;/script&gt;
+&lt;script src=&#39;http://example.com/vendor/photoswipe/photoswipe-ui-theme.js&#39;&gt; &lt;/script&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#39;http://example.com/css/res-gallery.css&#39; /&gt;
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt; 
+
+&lt;pre class=&#34;w3-code notranslate&#34;&gt;
+{{&amp;lt; res-gallery path=&amp;#34;.&amp;#34; match=&amp;#34;img/*&amp;#34;  &amp;gt;}}
+&lt;/pre&gt;
+
+    &lt;div class=&#39;res-gallery caption-position-center caption-effect-appear hover-effect-zoom hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+
+    &lt;div class=&#39;res-gallery-box &#39;
+         
+         style=&#34;width:120px; height:120px;&#34;
+         itemscope itemtype=&#34;http://schema.org/ImageGallery&#34; &gt;
+      &lt;figure class=&#34;img&#34;
+              data-size=&#39;800x450&#39;
+              data-caption=&#39;adventure-2528477_640.jpg&#39;
+              itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;
+              title=&#34;img/adventure-2528477_640.jpg&#34;
+      &gt;
+        &lt;a itemprop=&#34;contentUrl&#34; href=&#39;http://example.com/blog/2018/05/hugo-amet/img/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_800x0_resize_q75_box.jpg&#39; &gt;
+          &lt;img itemprop=&#34;thumbnail&#34;
+               src=&#39;http://example.com/blog/2018/05/hugo-amet/img/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_120x120_fit_q75_box.jpg&#39;
+               alt=&#39;adventure-2528477_640.jpg&#39;
+               width=&#39;120&#39;  height=&#39;68&#39;
+          /&gt;
+        &lt;/a&gt;
+        &lt;meta itemprop=&#34;width&#34;  content=&#39;800&#39;&gt;
+        &lt;meta itemprop=&#34;height&#34; content=&#39;450&#39;&gt;
+        &lt;figcaption class=&#34;res-gallery-figcaption &#34; itemprop=&#34;caption description&#34; &gt;
+          &lt;small&gt;Adventure 2528477 640&lt;/small&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt; 
+
+    &lt;div class=&#39;res-gallery-box &#39;
+         
+         style=&#34;width:120px; height:120px;&#34;
+         itemscope itemtype=&#34;http://schema.org/ImageGallery&#34; &gt;
+      &lt;figure class=&#34;img&#34;
+              data-size=&#39;800x533&#39;
+              data-caption=&#39;coffee-cup-2317201_640.jpg&#39;
+              itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;
+              title=&#34;img/coffee-cup-2317201_640.jpg&#34;
+      &gt;
+        &lt;a itemprop=&#34;contentUrl&#34; href=&#39;http://example.com/blog/2018/05/hugo-amet/img/coffee-cup-2317201_640_hu03b6e260229f1f771bea57602ba494a7_34887_800x0_resize_q75_box.jpg&#39; &gt;
+          &lt;img itemprop=&#34;thumbnail&#34;
+               src=&#39;http://example.com/blog/2018/05/hugo-amet/img/coffee-cup-2317201_640_hu03b6e260229f1f771bea57602ba494a7_34887_120x120_fit_q75_box.jpg&#39;
+               alt=&#39;coffee-cup-2317201_640.jpg&#39;
+               width=&#39;120&#39;  height=&#39;80&#39;
+          /&gt;
+        &lt;/a&gt;
+        &lt;meta itemprop=&#34;width&#34;  content=&#39;800&#39;&gt;
+        &lt;meta itemprop=&#34;height&#34; content=&#39;533&#39;&gt;
+        &lt;figcaption class=&#34;res-gallery-figcaption &#34; itemprop=&#34;caption description&#34; &gt;
+          &lt;small&gt;Coffee cup 2317201 640&lt;/small&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt; 
+
+    &lt;div class=&#39;res-gallery-box &#39;
+         
+         style=&#34;width:120px; height:120px;&#34;
+         itemscope itemtype=&#34;http://schema.org/ImageGallery&#34; &gt;
+      &lt;figure class=&#34;img&#34;
+              data-size=&#39;800x531&#39;
+              data-caption=&#39;organic-1280537_640.jpg&#39;
+              itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;
+              title=&#34;img/organic-1280537_640.jpg&#34;
+      &gt;
+        &lt;a itemprop=&#34;contentUrl&#34; href=&#39;http://example.com/blog/2018/05/hugo-amet/img/organic-1280537_640_hu03f2c529391f3ce03f4492c9e96e807e_66599_800x0_resize_q75_box.jpg&#39; &gt;
+          &lt;img itemprop=&#34;thumbnail&#34;
+               src=&#39;http://example.com/blog/2018/05/hugo-amet/img/organic-1280537_640_hu03f2c529391f3ce03f4492c9e96e807e_66599_120x120_fit_q75_box.jpg&#39;
+               alt=&#39;organic-1280537_640.jpg&#39;
+               width=&#39;120&#39;  height=&#39;80&#39;
+          /&gt;
+        &lt;/a&gt;
+        &lt;meta itemprop=&#34;width&#34;  content=&#39;800&#39;&gt;
+        &lt;meta itemprop=&#34;height&#34; content=&#39;531&#39;&gt;
+        &lt;figcaption class=&#34;res-gallery-figcaption &#34; itemprop=&#34;caption description&#34; &gt;
+          &lt;small&gt;Organic 1280537 640&lt;/small&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/div&gt;   
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis
+vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
+&lt;pre class=&#34;w3-code notranslate&#34;&gt;
+![golang.png](golang.png)
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;golang.png&#34; alt=&#34;golang.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Donec at pede. Etiam vel neque nec dui dignissim bibendum. Vivamus id
+enim. Phasellus neque orci, porta a, aliquet quis, semper a, massa. Phasellus
+purus. Pellentesque tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
+&lt;p&gt;&lt;pre class=&#34;w3-code notranslate&#34;&gt;
+[![hugo-lorem.png](hugo-lorem.png)](hugo-lorem.png)
+&lt;/pre&gt;
+
+&lt;a href=&#34;hugo-lorem.png&#34;&gt;&lt;img src=&#34;hugo-lorem.png&#34; alt=&#34;hugo-lorem.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Hugo - **highlight** :art:</title>
+      <link>http://example.com/blog/2017/11/hugo-highlight-chromastyles/</link>
+      <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/11/hugo-highlight-chromastyles/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Hugo comes with reallly &lt;strong&gt;fast syntax highlighting&lt;/strong&gt; from Chroma.
+From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
+is built in Go and is really, really fast – and for the most important
+parts compatible with Pygments.
+See &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting&#34;&gt;https://gohugo.io/content-management/syntax-highlighting&lt;/a&gt; for more.&lt;/p&gt;
+&lt;p&gt;In this theme we set&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;pygmentsUseClasses&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;demo&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;and provide &lt;code&gt;static/css/syntax.css&lt;/code&gt; which is a copy of: &lt;code&gt;static/css/syntax/syntax.&amp;lt;STYLE&amp;gt;.css&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The styles are:
+&lt;code&gt;autumn borland bw colorful default emacs friendly fruity manni monokai murphy native pastie perldoc rrt tango trac vim vs&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;These files were created with: &lt;code&gt;hugo gen chromastyles --style=vs &amp;gt; syntax.vs.css&lt;/code&gt;
+Available styles are listed here: &lt;a href=&#34;https://help.farbox.com/pygments.html&#34;&gt;https://help.farbox.com/pygments.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An alternative would be:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;pygmentsUseClasses&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# choose one:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;autumn&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;borland&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;bw&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;colorful&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;default&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;pygmentsStyle&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;emacs&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;friendly&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;fruity&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;manni&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;monokai&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;murphy&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;native&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;pastie&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;perldoc&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;rrt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;tango&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;trac&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;vim&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#pygmentsStyle = &amp;#34;vs&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;These are the supported languages:&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;ABNF&lt;/dt&gt;
+&lt;dd&gt;abnf&lt;/dd&gt;
+&lt;dt&gt;ANTLR&lt;/dt&gt;
+&lt;dd&gt;antlr&lt;/dd&gt;
+&lt;dt&gt;APL&lt;/dt&gt;
+&lt;dd&gt;apl&lt;/dd&gt;
+&lt;dt&gt;ActionScript&lt;/dt&gt;
+&lt;dd&gt;actionscript, as&lt;/dd&gt;
+&lt;dt&gt;ActionScript 3&lt;/dt&gt;
+&lt;dd&gt;actionscript3, as, as3&lt;/dd&gt;
+&lt;dt&gt;Ada&lt;/dt&gt;
+&lt;dd&gt;ada, ada2005, ada95, adb, ads&lt;/dd&gt;
+&lt;dt&gt;Angular2&lt;/dt&gt;
+&lt;dd&gt;ng2&lt;/dd&gt;
+&lt;dt&gt;ApacheConf&lt;/dt&gt;
+&lt;dd&gt;aconf, apache, apacheconf, conf, htaccess&lt;/dd&gt;
+&lt;dt&gt;AppleScript&lt;/dt&gt;
+&lt;dd&gt;applescript&lt;/dd&gt;
+&lt;dt&gt;Awk&lt;/dt&gt;
+&lt;dd&gt;awk, gawk, mawk, nawk&lt;/dd&gt;
+&lt;dt&gt;BNF&lt;/dt&gt;
+&lt;dd&gt;bnf&lt;/dd&gt;
+&lt;dt&gt;Base Makefile&lt;/dt&gt;
+&lt;dd&gt;bsdmake, mak, make, makefile, mf, mk&lt;/dd&gt;
+&lt;dt&gt;Bash&lt;/dt&gt;
+&lt;dd&gt;bash, bashrc, ebuild, eclass, exheres-0, exlib, ksh, sh, shell, zsh, zshrc&lt;/dd&gt;
+&lt;dt&gt;Batchfile&lt;/dt&gt;
+&lt;dd&gt;bat, batch, cmd, dosbatch, winbatch&lt;/dd&gt;
+&lt;dt&gt;BlitzBasic&lt;/dt&gt;
+&lt;dd&gt;b3d, bb, blitzbasic, bplus, decls&lt;/dd&gt;
+&lt;dt&gt;Brainfuck&lt;/dt&gt;
+&lt;dd&gt;b, bf, brainfuck&lt;/dd&gt;
+&lt;dt&gt;C&lt;/dt&gt;
+&lt;dd&gt;c, h, idc&lt;/dd&gt;
+&lt;dt&gt;C#&lt;/dt&gt;
+&lt;dd&gt;c#, cs, csharp&lt;/dd&gt;
+&lt;dt&gt;C&amp;#43;&amp;#43;&lt;/dt&gt;
+&lt;dd&gt;C, CPP, H, c++, cc, cp, cpp, cxx, h++, hh, hpp, hxx&lt;/dd&gt;
+&lt;dt&gt;CFEngine3&lt;/dt&gt;
+&lt;dd&gt;cf, cf3, cfengine3&lt;/dd&gt;
+&lt;dt&gt;CMake&lt;/dt&gt;
+&lt;dd&gt;cmake, txt&lt;/dd&gt;
+&lt;dt&gt;COBOL&lt;/dt&gt;
+&lt;dd&gt;COB, CPY, cob, cobol, cpy&lt;/dd&gt;
+&lt;dt&gt;CSS&lt;/dt&gt;
+&lt;dd&gt;css&lt;/dd&gt;
+&lt;dt&gt;Cap&amp;#39;n Proto&lt;/dt&gt;
+&lt;dd&gt;capnp&lt;/dd&gt;
+&lt;dt&gt;Ceylon&lt;/dt&gt;
+&lt;dd&gt;ceylon&lt;/dd&gt;
+&lt;dt&gt;ChaiScript&lt;/dt&gt;
+&lt;dd&gt;chai, chaiscript&lt;/dd&gt;
+&lt;dt&gt;Cheetah&lt;/dt&gt;
+&lt;dd&gt;cheetah, spitfire, spt, tmpl&lt;/dd&gt;
+&lt;dt&gt;Clojure&lt;/dt&gt;
+&lt;dd&gt;clj, clojure&lt;/dd&gt;
+&lt;dt&gt;CoffeeScript&lt;/dt&gt;
+&lt;dd&gt;coffee, coffee-script, coffeescript&lt;/dd&gt;
+&lt;dt&gt;Common Lisp&lt;/dt&gt;
+&lt;dd&gt;cl, common-lisp, lisp&lt;/dd&gt;
+&lt;dt&gt;Coq&lt;/dt&gt;
+&lt;dd&gt;coq, v&lt;/dd&gt;
+&lt;dt&gt;Crystal&lt;/dt&gt;
+&lt;dd&gt;cr, crystal&lt;/dd&gt;
+&lt;dt&gt;Cython&lt;/dt&gt;
+&lt;dd&gt;cython, pxd, pxi, pyrex, pyx&lt;/dd&gt;
+&lt;dt&gt;DTD&lt;/dt&gt;
+&lt;dd&gt;dtd&lt;/dd&gt;
+&lt;dt&gt;Dart&lt;/dt&gt;
+&lt;dd&gt;dart&lt;/dd&gt;
+&lt;dt&gt;Diff&lt;/dt&gt;
+&lt;dd&gt;diff, patch, udiff&lt;/dd&gt;
+&lt;dt&gt;Django/Jinja&lt;/dt&gt;
+&lt;dd&gt;django, jinja&lt;/dd&gt;
+&lt;dt&gt;Docker&lt;/dt&gt;
+&lt;dd&gt;docker, dockerfile&lt;/dd&gt;
+&lt;dt&gt;EBNF&lt;/dt&gt;
+&lt;dd&gt;ebnf&lt;/dd&gt;
+&lt;dt&gt;Elixir&lt;/dt&gt;
+&lt;dd&gt;elixir, ex, exs&lt;/dd&gt;
+&lt;dt&gt;Elm&lt;/dt&gt;
+&lt;dd&gt;elm&lt;/dd&gt;
+&lt;dt&gt;EmacsLisp&lt;/dt&gt;
+&lt;dd&gt;el, elisp, emacs, emacs-lisp&lt;/dd&gt;
+&lt;dt&gt;Erlang&lt;/dt&gt;
+&lt;dd&gt;erl, erlang, es, escript, hrl&lt;/dd&gt;
+&lt;dt&gt;FSharp&lt;/dt&gt;
+&lt;dd&gt;fs, fsharp, fsi&lt;/dd&gt;
+&lt;dt&gt;Factor&lt;/dt&gt;
+&lt;dd&gt;factor&lt;/dd&gt;
+&lt;dt&gt;Fish&lt;/dt&gt;
+&lt;dd&gt;fish, fishshell, load&lt;/dd&gt;
+&lt;dt&gt;Forth&lt;/dt&gt;
+&lt;dd&gt;forth, frt, fs&lt;/dd&gt;
+&lt;dt&gt;Fortran&lt;/dt&gt;
+&lt;dd&gt;F03, F90, f03, f90, fortran&lt;/dd&gt;
+&lt;dt&gt;GAS&lt;/dt&gt;
+&lt;dd&gt;S, asm, gas, s&lt;/dd&gt;
+&lt;dt&gt;GDScript&lt;/dt&gt;
+&lt;dd&gt;gd, gdscript&lt;/dd&gt;
+&lt;dt&gt;GLSL&lt;/dt&gt;
+&lt;dd&gt;frag, geo, glsl, vert&lt;/dd&gt;
+&lt;dt&gt;Genshi&lt;/dt&gt;
+&lt;dd&gt;genshi, kid, xml+genshi, xml+kid&lt;/dd&gt;
+&lt;dt&gt;Genshi HTML&lt;/dt&gt;
+&lt;dd&gt;html+genshi, html+kid&lt;/dd&gt;
+&lt;dt&gt;Genshi Text&lt;/dt&gt;
+&lt;dd&gt;genshitext&lt;/dd&gt;
+&lt;dt&gt;Gnuplot&lt;/dt&gt;
+&lt;dd&gt;gnuplot, plot, plt&lt;/dd&gt;
+&lt;dt&gt;Go&lt;/dt&gt;
+&lt;dd&gt;go, golang&lt;/dd&gt;
+&lt;dt&gt;Go HTML Template&lt;/dt&gt;
+&lt;dd&gt;go-html-template&lt;/dd&gt;
+&lt;dt&gt;Go Text Template&lt;/dt&gt;
+&lt;dd&gt;go-text-template&lt;/dd&gt;
+&lt;dt&gt;Groovy&lt;/dt&gt;
+&lt;dd&gt;gradle, groovy&lt;/dd&gt;
+&lt;dt&gt;HTML&lt;/dt&gt;
+&lt;dd&gt;htm, html, xhtml, xslt&lt;/dd&gt;
+&lt;dt&gt;HTTP&lt;/dt&gt;
+&lt;dd&gt;http&lt;/dd&gt;
+&lt;dt&gt;Handlebars&lt;/dt&gt;
+&lt;dd&gt;handlebars&lt;/dd&gt;
+&lt;dt&gt;Haskell&lt;/dt&gt;
+&lt;dd&gt;haskell, hs&lt;/dd&gt;
+&lt;dt&gt;Haxe&lt;/dt&gt;
+&lt;dd&gt;haxe, hx, hxsl&lt;/dd&gt;
+&lt;dt&gt;Hexdump&lt;/dt&gt;
+&lt;dd&gt;hexdump&lt;/dd&gt;
+&lt;dt&gt;Hy&lt;/dt&gt;
+&lt;dd&gt;hy, hylang&lt;/dd&gt;
+&lt;dt&gt;INI&lt;/dt&gt;
+&lt;dd&gt;cfg, dosini, inf, ini&lt;/dd&gt;
+&lt;dt&gt;Idris&lt;/dt&gt;
+&lt;dd&gt;idr, idris&lt;/dd&gt;
+&lt;dt&gt;Io&lt;/dt&gt;
+&lt;dd&gt;io&lt;/dd&gt;
+&lt;dt&gt;JSON&lt;/dt&gt;
+&lt;dd&gt;json&lt;/dd&gt;
+&lt;dt&gt;JSX&lt;/dt&gt;
+&lt;dd&gt;jsx, react&lt;/dd&gt;
+&lt;dt&gt;Java&lt;/dt&gt;
+&lt;dd&gt;java&lt;/dd&gt;
+&lt;dt&gt;JavaScript&lt;/dt&gt;
+&lt;dd&gt;javascript, js, jsm&lt;/dd&gt;
+&lt;dt&gt;Julia&lt;/dt&gt;
+&lt;dd&gt;jl, julia&lt;/dd&gt;
+&lt;dt&gt;Kotlin&lt;/dt&gt;
+&lt;dd&gt;kotlin, kt&lt;/dd&gt;
+&lt;dt&gt;LLVM&lt;/dt&gt;
+&lt;dd&gt;ll, llvm&lt;/dd&gt;
+&lt;dt&gt;Lighttpd configuration file&lt;/dt&gt;
+&lt;dd&gt;lighttpd, lighty&lt;/dd&gt;
+&lt;dt&gt;Lua&lt;/dt&gt;
+&lt;dd&gt;lua, wlua&lt;/dd&gt;
+&lt;dt&gt;Mako&lt;/dt&gt;
+&lt;dd&gt;mako, mao&lt;/dd&gt;
+&lt;dt&gt;Mason&lt;/dt&gt;
+&lt;dd&gt;m, mason, mc, mhtml, mi&lt;/dd&gt;
+&lt;dt&gt;Mathematica&lt;/dt&gt;
+&lt;dd&gt;cdf, ma, mathematica, mma, nb, nbp&lt;/dd&gt;
+&lt;dt&gt;MiniZinc&lt;/dt&gt;
+&lt;dd&gt;MZN, dzn, fzn, minizinc, mzn&lt;/dd&gt;
+&lt;dt&gt;Modula-2&lt;/dt&gt;
+&lt;dd&gt;def, m2, mod, modula2&lt;/dd&gt;
+&lt;dt&gt;MorrowindScript&lt;/dt&gt;
+&lt;dd&gt;morrowind, mwscript&lt;/dd&gt;
+&lt;dt&gt;MySQL&lt;/dt&gt;
+&lt;dd&gt;mysql, sql&lt;/dd&gt;
+&lt;dt&gt;Myghty&lt;/dt&gt;
+&lt;dd&gt;myghty, myt&lt;/dd&gt;
+&lt;dt&gt;NASM&lt;/dt&gt;
+&lt;dd&gt;ASM, asm, nasm&lt;/dd&gt;
+&lt;dt&gt;Newspeak&lt;/dt&gt;
+&lt;dd&gt;newspeak, ns2&lt;/dd&gt;
+&lt;dt&gt;Nginx configuration file&lt;/dt&gt;
+&lt;dd&gt;conf, nginx&lt;/dd&gt;
+&lt;dt&gt;Nim&lt;/dt&gt;
+&lt;dd&gt;nim, nimrod&lt;/dd&gt;
+&lt;dt&gt;Nix&lt;/dt&gt;
+&lt;dd&gt;nix, nixos&lt;/dd&gt;
+&lt;dt&gt;OCaml&lt;/dt&gt;
+&lt;dd&gt;ml, mli, mll, mly, ocaml&lt;/dd&gt;
+&lt;dt&gt;Objective-C&lt;/dt&gt;
+&lt;dd&gt;h, m, obj-c, objc, objective-c, objectivec&lt;/dd&gt;
+&lt;dt&gt;Octave&lt;/dt&gt;
+&lt;dd&gt;m, octave&lt;/dd&gt;
+&lt;dt&gt;PHP&lt;/dt&gt;
+&lt;dd&gt;inc, php, php3, php4, php5, php[345]&lt;/dd&gt;
+&lt;dt&gt;PL/pgSQL&lt;/dt&gt;
+&lt;dd&gt;plpgsql&lt;/dd&gt;
+&lt;dt&gt;POVRay&lt;/dt&gt;
+&lt;dd&gt;inc, pov&lt;/dd&gt;
+&lt;dt&gt;PacmanConf&lt;/dt&gt;
+&lt;dd&gt;conf, pacmanconf&lt;/dd&gt;
+&lt;dt&gt;Perl&lt;/dt&gt;
+&lt;dd&gt;perl, pl, pm, t&lt;/dd&gt;
+&lt;dt&gt;Pig&lt;/dt&gt;
+&lt;dd&gt;pig&lt;/dd&gt;
+&lt;dt&gt;PkgConfig&lt;/dt&gt;
+&lt;dd&gt;pc, pkgconfig&lt;/dd&gt;
+&lt;dt&gt;PostScript&lt;/dt&gt;
+&lt;dd&gt;eps, postscr, postscript, ps&lt;/dd&gt;
+&lt;dt&gt;PostgreSQL SQL dialect&lt;/dt&gt;
+&lt;dd&gt;postgres, postgresql&lt;/dd&gt;
+&lt;dt&gt;PowerShell&lt;/dt&gt;
+&lt;dd&gt;posh, powershell, ps1, psm1&lt;/dd&gt;
+&lt;dt&gt;Prolog&lt;/dt&gt;
+&lt;dd&gt;ecl, pl, pro, prolog&lt;/dd&gt;
+&lt;dt&gt;Protocol Buffer&lt;/dt&gt;
+&lt;dd&gt;proto, protobuf&lt;/dd&gt;
+&lt;dt&gt;Puppet&lt;/dt&gt;
+&lt;dd&gt;pp, puppet&lt;/dd&gt;
+&lt;dt&gt;Python&lt;/dt&gt;
+&lt;dd&gt;py, python, pyw, sage, sc, tac&lt;/dd&gt;
+&lt;dt&gt;Python 3&lt;/dt&gt;
+&lt;dd&gt;py3, python3&lt;/dd&gt;
+&lt;dt&gt;QBasic&lt;/dt&gt;
+&lt;dd&gt;BAS, bas, basic, qbasic&lt;/dd&gt;
+&lt;dt&gt;R&lt;/dt&gt;
+&lt;dd&gt;R, Renviron, Rhistory, Rprofile, S, r, s, splus&lt;/dd&gt;
+&lt;dt&gt;Racket&lt;/dt&gt;
+&lt;dd&gt;racket, rkt, rktd, rktl&lt;/dd&gt;
+&lt;dt&gt;Ragel&lt;/dt&gt;
+&lt;dd&gt;ragel&lt;/dd&gt;
+&lt;dt&gt;Rexx&lt;/dt&gt;
+&lt;dd&gt;arexx, rex, rexx, rx&lt;/dd&gt;
+&lt;dt&gt;Ruby&lt;/dt&gt;
+&lt;dd&gt;duby, gemspec, rake, rb, rbw, rbx, ruby&lt;/dd&gt;
+&lt;dt&gt;Rust&lt;/dt&gt;
+&lt;dd&gt;in, rs, rust&lt;/dd&gt;
+&lt;dt&gt;SCSS&lt;/dt&gt;
+&lt;dd&gt;scss&lt;/dd&gt;
+&lt;dt&gt;SPARQL&lt;/dt&gt;
+&lt;dd&gt;rq, sparql&lt;/dd&gt;
+&lt;dt&gt;SQL&lt;/dt&gt;
+&lt;dd&gt;sql&lt;/dd&gt;
+&lt;dt&gt;Sass&lt;/dt&gt;
+&lt;dd&gt;sass&lt;/dd&gt;
+&lt;dt&gt;Scala&lt;/dt&gt;
+&lt;dd&gt;scala&lt;/dd&gt;
+&lt;dt&gt;Scheme&lt;/dt&gt;
+&lt;dd&gt;scheme, scm, ss&lt;/dd&gt;
+&lt;dt&gt;Scilab&lt;/dt&gt;
+&lt;dd&gt;sce, sci, scilab, tst&lt;/dd&gt;
+&lt;dt&gt;Smalltalk&lt;/dt&gt;
+&lt;dd&gt;smalltalk, squeak, st&lt;/dd&gt;
+&lt;dt&gt;Smarty&lt;/dt&gt;
+&lt;dd&gt;smarty, tpl&lt;/dd&gt;
+&lt;dt&gt;Snobol&lt;/dt&gt;
+&lt;dd&gt;snobol&lt;/dd&gt;
+&lt;dt&gt;Solidity&lt;/dt&gt;
+&lt;dd&gt;sol, solidity&lt;/dd&gt;
+&lt;dt&gt;SquidConf&lt;/dt&gt;
+&lt;dd&gt;conf, squid, squid.conf, squidconf&lt;/dd&gt;
+&lt;dt&gt;Swift&lt;/dt&gt;
+&lt;dd&gt;swift&lt;/dd&gt;
+&lt;dt&gt;TASM&lt;/dt&gt;
+&lt;dd&gt;ASM, asm, tasm&lt;/dd&gt;
+&lt;dt&gt;TOML&lt;/dt&gt;
+&lt;dd&gt;toml&lt;/dd&gt;
+&lt;dt&gt;Tcl&lt;/dt&gt;
+&lt;dd&gt;rvt, tcl&lt;/dd&gt;
+&lt;dt&gt;Tcsh&lt;/dt&gt;
+&lt;dd&gt;csh, tcsh&lt;/dd&gt;
+&lt;dt&gt;TeX&lt;/dt&gt;
+&lt;dd&gt;aux, latex, tex, toc&lt;/dd&gt;
+&lt;dt&gt;Termcap&lt;/dt&gt;
+&lt;dd&gt;src, termcap&lt;/dd&gt;
+&lt;dt&gt;Terminfo&lt;/dt&gt;
+&lt;dd&gt;src, terminfo&lt;/dd&gt;
+&lt;dt&gt;Terraform&lt;/dt&gt;
+&lt;dd&gt;terraform, tf&lt;/dd&gt;
+&lt;dt&gt;Thrift&lt;/dt&gt;
+&lt;dd&gt;thrift&lt;/dd&gt;
+&lt;dt&gt;Transact-SQL&lt;/dt&gt;
+&lt;dd&gt;t-sql, tsql&lt;/dd&gt;
+&lt;dt&gt;Turtle&lt;/dt&gt;
+&lt;dd&gt;ttl, turtle&lt;/dd&gt;
+&lt;dt&gt;Twig&lt;/dt&gt;
+&lt;dd&gt;twig&lt;/dd&gt;
+&lt;dt&gt;TypeScript&lt;/dt&gt;
+&lt;dd&gt;ts, tsx, typescript&lt;/dd&gt;
+&lt;dt&gt;TypoScript&lt;/dt&gt;
+&lt;dd&gt;ts, txt, typoscript&lt;/dd&gt;
+&lt;dt&gt;TypoScriptCssData&lt;/dt&gt;
+&lt;dd&gt;typoscriptcssdata&lt;/dd&gt;
+&lt;dt&gt;TypoScriptHtmlData&lt;/dt&gt;
+&lt;dd&gt;typoscripthtmldata&lt;/dd&gt;
+&lt;dt&gt;VHDL&lt;/dt&gt;
+&lt;dd&gt;vhd, vhdl&lt;/dd&gt;
+&lt;dt&gt;VimL&lt;/dt&gt;
+&lt;dd&gt;exrc, gvimrc, vim, vimrc&lt;/dd&gt;
+&lt;dt&gt;WDTE&lt;/dt&gt;
+&lt;dd&gt;wdte&lt;/dd&gt;
+&lt;dt&gt;XML&lt;/dt&gt;
+&lt;dd&gt;rss, svg, wsdl, wsf, xml, xsd, xsl, xslt&lt;/dd&gt;
+&lt;dt&gt;Xorg&lt;/dt&gt;
+&lt;dd&gt;conf, xorg.conf&lt;/dd&gt;
+&lt;dt&gt;YAML&lt;/dt&gt;
+&lt;dd&gt;yaml, yml&lt;/dd&gt;
+&lt;dt&gt;cfstatement&lt;/dt&gt;
+&lt;dd&gt;cfs&lt;/dd&gt;
+&lt;dt&gt;markdown&lt;/dt&gt;
+&lt;dd&gt;markdown, md, mkd&lt;/dd&gt;
+&lt;dt&gt;reStructuredText&lt;/dt&gt;
+&lt;dd&gt;rest, restructuredtext, rst&lt;/dd&gt;
+&lt;dt&gt;reg&lt;/dt&gt;
+&lt;dd&gt;reg, registry&lt;/dd&gt;
+&lt;dt&gt;systemverilog&lt;/dt&gt;
+&lt;dd&gt;sv, svh, systemverilog&lt;/dd&gt;
+&lt;dt&gt;verilog&lt;/dt&gt;
+&lt;dd&gt;v, verilog&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Check &lt;a href=&#34;https://github.com/alecthomas/chroma&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt; for more information.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>: FAQ</title>
+      <link>http://example.com/faq/</link>
+      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
+      
+      <guid>http://example.com/faq/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Pellentesque
+&lt;span class=&#39;w3-badge &#39;&gt;habitant&lt;/span&gt;
+morbi tristique senectus et
+&lt;span class=&#39;w3-badge w3-green&#39;&gt;netus&lt;/span&gt;
+netus et malesuada
+fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+ultricies eget, tempor sit amet, ante.&lt;/p&gt;
+&lt;p&gt;
+&lt;span class=&#39;fas fa-home fa-2x&#39; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+ Donec eu libero sit amet quam
+egestas semper. Aenean ultricies mi vitae est. Mauris placerat
+eleifend leo.&lt;/p&gt;
+&lt;h2 id=&#34;1-phasellus-at-dui-in-ligula-mollis-ultricies&#34;&gt;1. Phasellus at dui in ligula mollis ultricies?&lt;/h2&gt;
+&lt;p&gt;Fusce suscipit, wisi nec
+&lt;span class=&#39;w3-tag &#39;&gt;facilisi &lt;/span&gt;
+est dui
+fermentum leo, quis tempor ligula erat quis odio.
+&lt;span class=&#39;w3-tag w3-blue w3-xxlarge&#39;&gt;Nunc&lt;/span&gt;
+porta vulputate tellus. Nunc rutrum
+turpis sed pede. Sed bibendum. Aliquam posuere. Nunc aliquet, augue
+nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi
+purus non odio. Pellentesque condimentum, magna ut suscipit hendrerit,
+ipsum augue ornare nulla, non luctus diam neque sit amet
+urna. Curabitur vulputate vestibulum lorem. Fusce sagittis, libero non
+molestie mollis, magna orci ultrices dolor, at vulputate neque nulla
+lacinia eros. Sed id ligula quis est convallis tempor.  Curabitur
+lacinia pulvinar nibh.&lt;/p&gt;
+&lt;div class=&#39;w3-panel w3-leftbar shortcode-info&#39;&gt;
+      &lt;i class=&#39;w3-margin-right fas fa-info fa-2x&#39;&gt;&lt;/i&gt;**Nam** a sapien.&lt;/div&gt;
+&lt;h2 id=&#34;2-nunc-rutrum-turpis-sed-pede&#34;&gt;2. Nunc rutrum turpis sed pede?&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam
+nisl, tincidunt et, mattis eget, convallis nec, purus. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam non
+turpis. Cras placerat accumsan nulla. Nullam rutrum.&lt;/p&gt;
+&lt;div class=&#39;w3-panel w3-leftbar shortcode-success&#39;&gt;
+      &lt;i class=&#39;w3-margin-right fas fa-check fa-2x&#39;&gt;&lt;/i&gt;Nam vestibulum *accumsan* nisl.&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.&lt;/li&gt;
+&lt;li&gt;Nullam tristique diam non turpis.&lt;/li&gt;
+&lt;li&gt;Etiam laoreet quam sed arcu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-cum-sociis-natoque-penatibus-et-magnis-dis-parturient-montes-nascetur-ridiculus-mus&#34;&gt;3. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus?&lt;/h2&gt;
+&lt;p&gt;Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+skateboard dolor brunch.&lt;/p&gt;
+&lt;div class=&#39;w3-panel w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-round-xxlarge shortcode-warning&#39;&gt;
+  &lt;h3&gt;&lt;span class=&#34;w3-margin-right w3-badge w3-large&#34;&gt;&lt;i class=&#39;fas fa-exclamation-triangle &#39;&gt;&lt;/i&gt;&lt;/span&gt;Food truck quinoa nesciunt laborum&lt;/h3&gt;
+Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+single-origin coffee nulla assumenda shoreditch et.
+&lt;/div&gt;
+&lt;p&gt;Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+synth nesciunt you probably haven&amp;rsquo;t heard of them accusamus labore
+sustainable VHS.&lt;/p&gt;
+&lt;div class=&#39;w3-panel w3-leftbar shortcode-warning&#39;&gt;
+  &lt;h3&gt;&lt;i class=&#39;w3-margin-right fas fas fa-exclamation-triangle &#39;&gt;&lt;/i&gt;raw denim aesthetic&lt;/h3&gt;
+accusamus **labore** sustainable VHS
+&lt;/div&gt;
+&lt;h2 id=&#34;4-pellentesque-tristique-imperdiet-tortor&#34;&gt;4. Pellentesque tristique imperdiet tortor?&lt;/h2&gt;
+&lt;p&gt;Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non
+orci commodo lobortis.&lt;/p&gt;
+&lt;div class=&#39;w3-panel w3-leftbar shortcode-danger&#39;&gt;
+  &lt;h3&gt;&lt;i class=&#39;w3-margin-right fas fa-bomb &#39;&gt;&lt;/i&gt;Nunc eleifend&lt;/h3&gt;
+In id erat non orci commodo lobortis. 
+&lt;/div&gt;
+&lt;p&gt;Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus. Sed
+diam. Praesent fermentum tempor tellus.  Nullam tempus. Mauris ac
+felis vel velit tristique imperdiet. Donec at pede. Etiam vel neque
+nec dui dignissim bibendum. Vivamus id enim. Phasellus neque orci,
+porta a, aliquet quis, semper a, massa.  Phasellus purus. Pellentesque
+tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
+&lt;p&gt;
+&lt;script src=&#39;http://example.com/vendor/jquery/jquery-3.4.1.slim.min.js&#39;&gt;&lt;/script&gt;
+&lt;script src=&#39;http://example.com/vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js&#39;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;http://example.com/vendor/photoswipe/photoswipe.css&#39; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;http://example.com/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
+&lt;script src=&#39;http://example.com/vendor/photoswipe/photoswipe.min.js&#39;&gt;      &lt;/script&gt;
+&lt;script src=&#39;http://example.com/vendor/photoswipe/photoswipe-ui-theme.js&#39;&gt; &lt;/script&gt;
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#39;http://example.com/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+
+&lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
+  &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;http://example.com/images/teaserpics/pixabay.com/coffee-2306471_640-thumb.jpg&#39; alt=&#39;Coffee&#39;/&gt;
+    &lt;/div&gt;
+    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/teaserpics/pixabay.com/coffee-2306471_640.jpg&#39; &gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;Hej&lt;/h4&gt;&lt;p&gt;Coffee&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
+  &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;http://example.com/images/teaserpics/pixabay.com/coffee-2714970_640-thumb.jpg&#39; alt=&#39;Coffee&#39;/&gt;
+    &lt;/div&gt;
+    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/teaserpics/pixabay.com/coffee-2714970_640.jpg&#39; &gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;p&gt;Coffee&lt;/p&gt;
+        &lt;footer&gt;&lt;small&gt;(c) pixabay.com (CC0)&lt;/small&gt;&lt;/footer&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
+  &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;http://example.com/images/teaserpics/pixabay.com/coffee-beans-2258839_640-thumb.jpg&#39; alt=&#39;Coffee&#39;/&gt;
+    &lt;/div&gt;
+    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/teaserpics/pixabay.com/coffee-beans-2258839_640.jpg&#39; &gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;p&gt;Coffee&lt;/p&gt;
+        &lt;footer&gt;&lt;small&gt;&lt;a href=&#39;https://pixabay.com&#39;&gt;(c) pixabay.com (CC0)&lt;/a&gt;&lt;/small&gt;&lt;/footer&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;5-nulla-posuere&#34;&gt;5. Nulla posuere?&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+hendrerit tempor tellus.&lt;/p&gt;
+ &lt;div class=&#39;shortcode-quote w3-panel w3-leftbar w3-theme-l3   &#39;&gt;
+  &lt;i class=&#39;fas fa-quote-right w3-xxlarge w3-margin-right&#39;&gt;&lt;/i&gt;
+  Proin quam nisl, &lt;strong&gt;tincidunt&lt;/strong&gt; et, mattis eget, convallis nec, purus.&lt;p class=&#39;shortcode-quote-source&#39;&gt;Cum sociis&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Donec pretium posuere tellus. Natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus. Nulla posuere. Donec vitae
+dolor. Nullam tristique diam non turpis. Cras placerat accumsan
+nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&#39;gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.com/images/photocards/pixabay.com/01-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/photocards/pixabay.com/01-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;http://example.com/images/photocards/pixabay.com/01-photocard-thumb.jpg&#39; alt=&#39;01-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;01-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.com/images/photocards/pixabay.com/02-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/photocards/pixabay.com/02-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;http://example.com/images/photocards/pixabay.com/02-photocard-thumb.jpg&#39; alt=&#39;02-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;02-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.com/images/photocards/pixabay.com/03-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/photocards/pixabay.com/03-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;http://example.com/images/photocards/pixabay.com/03-photocard-thumb.jpg&#39; alt=&#39;03-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;03-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.com/images/photocards/pixabay.com/04-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/photocards/pixabay.com/04-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;http://example.com/images/photocards/pixabay.com/04-photocard-thumb.jpg&#39; alt=&#39;04-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;04-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.com/images/photocards/pixabay.com/05-photocard-thumb.png&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/photocards/pixabay.com/05-photocard.png&#39; &gt;
+                &lt;img src=&#39;http://example.com/images/photocards/pixabay.com/05-photocard-thumb.png&#39; alt=&#39;05-photocard.png&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;05-photocard.png&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.com/images/photocards/pixabay.com/06-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/photocards/pixabay.com/06-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;http://example.com/images/photocards/pixabay.com/06-photocard-thumb.jpg&#39; alt=&#39;06-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;06-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.com/images/photocards/pixabay.com/07-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/photocards/pixabay.com/07-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;http://example.com/images/photocards/pixabay.com/07-photocard-thumb.jpg&#39; alt=&#39;07-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;07-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.com/images/photocards/pixabay.com/08-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/photocards/pixabay.com/08-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;http://example.com/images/photocards/pixabay.com/08-photocard-thumb.jpg&#39; alt=&#39;08-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;08-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.com/images/photocards/pixabay.com/09-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;http://example.com/images/photocards/pixabay.com/09-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;http://example.com/images/photocards/pixabay.com/09-photocard-thumb.jpg&#39; alt=&#39;09-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;09-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;6-praesent-fermentum-tempor&#34;&gt;6. Praesent fermentum tempor&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Right&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Center&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Left&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;default&lt;/th&gt;
+&lt;th&gt;is left&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;td&gt;foo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Hugo - dolor</title>
+      <link>http://example.com/blog/2017/11/hugo-dolor/</link>
+      <pubDate>Fri, 10 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/11/hugo-dolor/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+&lt;p&gt;Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+imperdiet a, venenatis vitae, justo.&lt;/p&gt;
+&lt;p&gt;Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.&lt;/p&gt;
+&lt;p&gt;Phasellus viverra nulla ut metus varius laoreet. Quisque
+rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.&lt;/p&gt;
+&lt;p&gt;Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper
+libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio
+et ante tincidunt tempus. Donec vitae sapien ut libero venenatis
+faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
+tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales
+sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit
+cursus nunc,&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Hugo - lorem</title>
+      <link>http://example.com/blog/2017/11/hugo-lorem/</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/11/hugo-lorem/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+commodo ligula eget dolor. &lt;strong&gt;Aenean massa&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+pretium quis, sem.&lt;/p&gt;
+&lt;p&gt;Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+aliquet nec, vulputate eget, arcu.&lt;/p&gt;
+&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.&lt;/p&gt;
+&lt;p&gt;Vivamus elementum semper nisi. Aenean vulputate eleifend
+tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+enim.&lt;/p&gt;
+&lt;p&gt;Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
+rutrum. Aenean imperdiet.&lt;/p&gt;
+&lt;p&gt;Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+nisi. Nam eget dui. Etiam rhoncus.&lt;/p&gt;
+&lt;p&gt;Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper
+libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+blandit vel, luctus pulvinar, hendrerit id, lorem.&lt;/p&gt;
+&lt;p&gt;Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
+libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget
+eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet
+nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum
+sodales, augue velit cursus nunc.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Hugo - ipsum</title>
+      <link>http://example.com/blog/2017/11/hugo-ipsum/</link>
+      <pubDate>Wed, 08 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/11/hugo-ipsum/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+&lt;h3 id=&#34;pellen-tesque-conse-ctetuer&#34;&gt;Pellen Tesque Conse Ctetuer&lt;/h3&gt;
+&lt;p&gt;Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+pretium quis, sem.&lt;/p&gt;
+&lt;p&gt;Nullam dictum felis eu pede mollis pretium.&lt;/p&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+pretium quis, sem.&lt;/p&gt;
+&lt;p&gt;Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+imperdiet a, venenatis vitae, justo.&lt;/p&gt;
+&lt;p&gt;Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Golang - a closer look </title>
+      <link>http://example.com/blog/2017/10/golang-a-closer-look/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/10/golang-a-closer-look/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam
+nisl, tincidunt et, mattis eget, convallis nec, purus.&lt;/p&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam
+non turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam
+vestibulum accumsan nisl.&lt;/p&gt;
+&lt;h1 id=&#34;pellentesque-condimentum-magna-ut-suscipit&#34;&gt;Pellentesque condimentum, magna ut suscipit&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam
+nisl, tincidunt et, mattis eget, convallis nec, purus. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam non
+turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam vestibulum
+accumsan nisl.&lt;/p&gt;
+&lt;h1 id=&#34;nullam-tristique-diam&#34;&gt;Nullam tristique diam&lt;/h1&gt;
+&lt;p&gt;Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non
+orci commodo lobortis. Proin neque massa, cursus ut, gravida ut,
+lobortis eget, lacus. Sed diam. Praesent fermentum tempor tellus.
+Nullam tempus. Mauris ac felis vel velit tristique imperdiet. Donec
+at pede. Etiam vel neque nec dui dignissim bibendum. Vivamus id
+enim. Phasellus neque orci, porta a, aliquet quis, semper a, massa.
+Phasellus purus. Pellentesque tristique imperdiet tortor. Nam
+euismod tellus id erat.&lt;/p&gt;
+&lt;h2 id=&#34;nullam-rutrum&#34;&gt;Nullam rutrum&lt;/h2&gt;
+&lt;p&gt;Pellentesque dapibus suscipit ligula. Donec posuere augue in quam.
+Etiam vel tortor sodales tellus ultricies commodo. Suspendisse
+potenti. Aenean in sem ac leo mollis blandit. Donec neque quam,
+dignissim in, mollis nec, sagittis eu, wisi. Phasellus lacus. Etiam
+laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies.
+Integer placerat tristique nisl. Praesent augue. Fusce commodo.
+Vestibulum convallis, lorem a tempus semper, dui dui euismod elit,
+vitae placerat urna tortor vitae lacus. Nullam libero mauris,
+consequat quis, varius et, dictum id, arcu. Mauris mollis tincidunt
+felis. Aliquam feugiat tellus ut neque. Nulla facilisis, risus a
+rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo
+sit amet elit.&lt;/p&gt;
+&lt;h2 id=&#34;curabitur-lacinia-pulvinar-nibh&#34;&gt;Curabitur lacinia pulvinar nibh&lt;/h2&gt;
+&lt;p&gt;Nullam eu ante vel est convallis dignissim. Fusce suscipit, wisi nec
+facilisis facilisis, est dui fermentum leo, quis tempor ligula erat
+quis odio. Nunc porta vulputate tellus. Nunc rutrum turpis sed pede.
+Sed bibendum. Aliquam posuere. Nunc aliquet, augue nec adipiscing
+interdum, lacus tellus malesuada massa, quis varius mi purus non odio.
+Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue
+ornare nulla, non luctus diam neque sit amet urna. Curabitur
+vulputate vestibulum lorem. Fusce sagittis, libero non molestie
+mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia
+eros. Sed id ligula quis est convallis tempor. Curabitur lacinia
+pulvinar nibh. Nam a sapien.&lt;/p&gt;
+&lt;h1 id=&#34;etiam-vel-neque-nec&#34;&gt;Etiam vel neque nec&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam
+nisl, tincidunt et, mattis eget, convallis nec, purus. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam non
+turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam vestibulum
+accumsan nisl.&lt;/p&gt;
+&lt;h2 id=&#34;art-taken-from-&#34;&gt;Art taken from &amp;hellip;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/golang/go/blob/master/doc/gopher/bumper640x360.png&#34;&gt;https://github.com/golang/go/blob/master/doc/gopher/bumper640x360.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Go gopher was designed by Renee French. (&lt;a href=&#34;http://reneefrench.blogspot.com/&#34;&gt;http://reneefrench.blogspot.com/&lt;/a&gt;)
+The design is licensed under the Creative Commons 3.0 Attributions license.
+Read this article for more details: &lt;a href=&#34;https://blog.golang.org/gopher&#34;&gt;https://blog.golang.org/gopher&lt;/a&gt;&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Emacs - it all starts here</title>
+      <link>http://example.com/blog/2017/09/emacs-it-all-starts-here/</link>
+      <pubDate>Sun, 10 Sep 2017 19:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/09/emacs-it-all-starts-here/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Emacs originally was an acronym for Editor MACroS. RMS says he
+“picked the name Emacs because &lt;E&gt; was not in use as an abbreviation
+on ITS at the time.”&lt;/p&gt;
+&lt;p&gt;The first Emacs was a set of macros written in 1976 at MIT by RMS for
+the editor TECO (Text Editor and COrrector, originally Tape Editor and
+COrrector) under ITS (the Incompatible Timesharing System) on a
+PDP-10.&lt;/p&gt;
+&lt;p&gt;RMS had already extended TECO with a “real-time” full-screen mode with
+reprogrammable keys. Emacs was started by Guy Steele as a project to
+unify the many divergent TECO command sets and key bindings at MIT,
+and completed by RMS.&lt;/p&gt;
+&lt;h2 id=&#34;where-does-the-name-emacs-come-from&#34;&gt;Where does the name “Emacs” come from?&lt;/h2&gt;
+&lt;p&gt;Many people have said that TECO code looks a lot like line noise; you
+can read more at &lt;a href=&#34;news:alt.lang.teco&#34;&gt;news:alt.lang.teco&lt;/a&gt;. Someone has written a TECO
+implementation in Emacs Lisp (to find it, see *note Packages that do
+not come with Emacs::); it would be an interesting project to run the
+original TECO Emacs inside of Emacs.&lt;/p&gt;
+&lt;p&gt;For some not-so-serious alternative reasons for Emacs to have that
+name, check out the file &lt;a href=&#34;http://example.com/blog/1985/03/emacs-jokes/&#34;&gt;etc/JOKES&lt;/a&gt;
+(*note File-name conventions::).&lt;/p&gt;
+&lt;h2 id=&#34;what-is-different-about-emacs-25&#34;&gt;What is different about Emacs 25?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Emacs can now embed native widgets inside Emacs buffers, if you
+have gtk3 and webkitgtk3 installed.  E.g., to access the embedded
+webkit browser widget, type ‘M-x xwidget-webkit-browse-url’.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Emacs can now dynamically load external modules compiled as shared
+libraries.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;kbd&gt;C-x&lt;/kbd&gt;
+&lt;kbd&gt;8&lt;/kbd&gt;
+ has new shorthands for several popular characters, type
+
+  &lt;kbd&gt;C-x&lt;/kbd&gt;
+  &lt;kbd&gt;8&lt;/kbd&gt;
+  &lt;kbd&gt;C-h&lt;/kbd&gt;
+ to list shorthands.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A new minor mode ‘global-eldoc-mode’ is enabled by default, and
+shows in the echo area or in the mode line the argument list of the
+Emacs Lisp form at point.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On text terminals that support the “bracketed paste mode” EMacs now
+uses that mode by default.  This mode allows Emacs to distinguish
+between pasted text and text typed by the user.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Emacs 25 comes with data files imported from the latest Unicode
+Standard version 9.0.0.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The support for bidirectional editing was updated to include all
+the features mandated by the latest Unicode Standard version 9.0.0.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Search command can now perform character folding in matches.  This
+is analogous to case folding, but instead of disregarding case
+variants, it disregards wider classes of distinctions between
+similar characters, such as matching different variants of double
+quote characters, ignoring diacritics, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Emacs Web Browser EWW was extended to render text using
+variable-pitch fonts, and got other new features.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rmail can now render HTML mail messages, if Emacs is built with
+libxml2 or if you have the Lynx browser installed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VC now has basic support for ‘push’ commands, implemented for Bzr,
+Git, and Hg.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hide-IfDef mode now support full C/C++ expressions in macros, macro
+argument expansion, interactive macro evaluation and automatic
+scanning of ‘#define’d symbols.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New package Xref replaces Etags’s front-end and UI. Xref provides a
+generic framework and new commands to find and move to definitions
+of functions, macros, data structures etc., as well as go back to
+the location where you were before moving to a definition.  It
+supersedes and obsoletes many Etags commands, while still using the
+etags.el code that reads the TAGS tables as one of its back-ends.
+As result, the popular key bindings ‘M-.’ and ‘M-,’ have been
+changed to invoke Xref commands.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The new package Project provides generic infrastructure for dealing
+with projects.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Emacs can now draw horizontal scroll bars on some platforms that
+provide toolkit scroll bars, namely Gtk+, Lucid, Motif and Windows.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Consult the Emacs ‘NEWS’ file (‘C-h n’) for the full list of changes in Emacs 25.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Emacs Jokes</title>
+      <link>http://example.com/blog/1985/03/emacs-jokes/</link>
+      <pubDate>Wed, 20 Mar 1985 20:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/blog/1985/03/emacs-jokes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Richard M. Stallman (RMS, widely known for creating EMACS) is writing
+a UNIX clone called GNU (which means Gnu&amp;rsquo;s Not Unix&amp;ndash;a recursive
+acronym).&lt;/p&gt;
+&lt;p&gt;This seems to open the way to a whole gnu class of jokes.  For
+example:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q:  What do you call a person who hacks while wearing no clothes?&lt;br&gt;
+A:  A gnudist.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q:  What do you call an eligible young hacker?&lt;br&gt;
+A:  Gnubile.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q:  What is a hacker&amp;rsquo;s favorite candy?&lt;br&gt;
+A:  Gnugat.   (Though it contains little gnutrition.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q:  What do you call a computer filled with air?&lt;br&gt;
+A:  Gnumatic.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q:  What do you call a novice hacker who keeps pestering you
+with foolish questions?&lt;br&gt;
+A:  A gnuisance.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q:  What do you call a subtle, clever hack in the favorite language?&lt;br&gt;
+A:  A gnuanCe.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q:  What do you use a supercomputer for?&lt;br&gt;
+A:  Gnumerical analysis.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q:  What do you call a hacker who collects coins?&lt;br&gt;
+A:  A gnumismatist.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Well, there are more, just too gnumerous to tell all at once.  I think&lt;/p&gt;
+&lt;h1 id=&#34;elvisgnuaimitedu&#34;&gt;&lt;a href=&#34;mailto:elvis@gnu.ai.mit.edu&#34;&gt;elvis@gnu.ai.mit.edu&lt;/a&gt;&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;From: elvis@gnu.ai.mit.edu
+To: emacs-19-bugs@gnu.ai.mit.edu
+Subject: missing from etc/emacs.names
+Date: Thu, 20 May 93 02:21:27 edt
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Elvis
+Masterminds
+All
+Computer
+Software
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Just so you boys know the score.&lt;/p&gt;
+&lt;p&gt;Thank you very much,&lt;br&gt;
+The King&lt;/p&gt;
+&lt;h2 id=&#34;what-does-it-mean&#34;&gt;What does it mean&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;From: The Unknown User &amp;lt;anonymous@nowhere.uucp&amp;gt;
+Subject: EMACS -- What does it mean?
+To: mit-prep!info-gnu-emacs@TOPAZ.RUTGERS.EDU
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;EMACS belongs in &amp;lt;sys/errno.h&amp;gt;: Editor too big!&lt;/p&gt;
+&lt;p&gt;Escape-Meta-Alt-Control-Shift&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;From: harvard!topaz!BLUE!BRAIL@mit-eddie
+Date: 9 Sep 85 17:25:27 EDT
+Subject: EMACS -- What does it mean?
+To: mit-prep!info-gnu-emacs@TOPAZ.RUTGERS.EDU
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;EMACS may stand for &amp;ldquo;Editing MACroS,&amp;rdquo; but some friends of mine
+suggested some more creative definitions. Here they are. Anyone have
+any additions?&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Eight
+Megabytes
+And
+Constantly
+Swapping
+
+Even a
+Master of
+Arts
+Comes
+Simpler
+
+Emacs
+Manuals
+Are
+Cryptic and
+Surreal
+
+Energetic
+Merchants
+Always
+Cultivate
+Sales
+
+Each
+Manual&amp;#39;s
+Audience is
+Completely
+Stupefied
+
+Emacs
+Means
+A
+Crappy
+Screen
+
+Eventually
+Munches
+All
+Computer
+Storage
+
+Even
+My
+Aunt
+Crashes the
+System
+
+Eradication of
+Memory
+Accomplished with
+Complete
+Simplicity
+
+Elsewhere
+Maybe
+Alternative
+Civilizations
+Survive
+
+Egregious
+Managers
+Actively
+Court
+Stallman
+
+Esoteric
+Malleability
+Always
+Considered
+Silly
+
+Emacs
+Manuals
+Always
+Cause
+Senility
+
+Easily
+Maintained with the
+Assistance of
+Chemical
+Solutions
+
+Edwardian
+Manifestation of
+All
+Colonial
+Sins
+
+Generally
+Not
+Used
+
+Except by
+Middle
+Aged
+Computer
+Scientists
+
+Extended
+Macros
+Are
+Considered
+Superfluous
+
+Every
+Mode
+Accelerates
+Creation of
+Software
+
+Elsewhere
+Maybe
+All
+Commands are
+Simple
+
+Emacs
+May
+Allow
+Customized
+Screwups
+
+Excellent
+Manuals
+Are
+Clearly
+Suppressed
+
+Emetic
+Macros
+Assault
+Core and
+Segmentation
+
+Embarrassed
+Manual-Writer
+Accused of
+Communist
+Subversion
+
+Extensibility and
+Modifiability
+Aggravate
+Confirmed
+Simpletons
+
+Emacs
+May
+Annihilate
+Command
+Structures
+
+Easily
+Mangles,
+Aborts,
+Crashes and
+Stupefies
+
+Extraneous
+Macros
+And
+Commands
+Stink
+
+Exceptionally
+Mediocre
+Algorithm for
+Computer
+Scientists
+
+EMACS
+Makes no
+Allowances
+Considering its
+Stiff price
+
+Equine
+Mammals
+Are
+Considerably
+Smaller
+
+Embarrassingly
+Mundane
+Advertising
+Cuts
+Sales
+
+Every
+Moron
+Assumes
+CCA is
+Superior
+
+Exceptionally
+Mediocre
+Autocratic
+Control
+System
+
+EMACS
+May
+Alienate
+Clients and
+Supporters
+
+Excavating
+Mayan
+Architecture
+Comes
+Simpler
+
+Erasing
+Minds
+Allows
+Complete
+Submission
+
+Every
+Male
+Adolescent
+Craves
+Sex
+
+Elephantine
+Memory
+Absolutely
+Considered
+Sine que non
+
+Emacs
+Makers
+Are
+Crazy
+Sickos
+
+Eenie-Meenie-Miney-Mo-
+Macros
+Are
+Completely
+Slow
+
+Experience the
+Mildest
+Ad
+Campaign ever
+Seen
+
+Emacs
+Makefiles
+Annihilate
+C-
+Shells
+
+Eradication of
+Memory
+Accomplished with
+Complete
+Simplicity
+
+Emetic
+Macros
+Assault
+Core and
+Segmentation
+
+Epileptic
+MLisp
+Aggravates
+Compiler
+Seizures
+
+Eleven thousand
+Monkeys
+Asynchronously
+Crank out these
+Slogans
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;ed-forever&#34;&gt;ed forever?&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;From: patl@athena.mit.edu (Patrick J. LoPresti)
+Message-ID: &amp;lt;1991Jul11.031731.9260@athena.mit.edu&amp;gt;
+Sender: news@athena.mit.edu (News system)
+Subject: The True Path (long)
+Date: 11 Jul 91 03:17:31 GMT
+Path: ai-lab!mintaka!olivea!samsung!zaphod.mps.ohio-state.edu!think.com!snorkelwacker.mit.edu!bloom-picayune.mit.edu!athena.mit.edu!patl
+Newsgroups: alt.religion.emacs,alt.slack
+Organization: Massachusetts Institute of Technology
+Lines: 95
+Xref: ai-lab alt.religion.emacs:244 alt.slack:1935
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;When I log into my Xenix system with my 110 baud teletype, both vi
+&lt;em&gt;and&lt;/em&gt; Emacs are just too damn slow.  They print useless messages like,
+&amp;lsquo;C-h for help&amp;rsquo; and &amp;lsquo;&amp;ldquo;foo&amp;rdquo; File is read only&amp;rsquo;.  So I use the editor
+that doesn&amp;rsquo;t waste my VALUABLE time.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ED(1)               UNIX Programmer&amp;#39;s Manual                ED(1)
+
+NAME
+     ed - text editor
+
+SYNOPSIS
+     ed [ - ] [ -x ] [ name ]
+DESCRIPTION
+     Ed is the standard text editor.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Computer Scientists love ed, not just because it comes first
+alphabetically, but because it&amp;rsquo;s the standard.  Everyone else loves ed
+because it&amp;rsquo;s ED!&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Ed is the standard text editor.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;And ed doesn&amp;rsquo;t waste space on my Timex Sinclair.  Just look:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;-rwxr-xr-x  1 root          24 Oct 29  1929 /bin/ed
+-rwxr-xr-t  4 root     1310720 Jan  1  1970 /usr/ucb/vi
+-rwxr-xr-x  1 root  5.89824e37 Oct 22  1990 /usr/bin/emacs
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Of course, on the system &lt;em&gt;I&lt;/em&gt; administrate, vi is symlinked to ed.
+Emacs has been replaced by a shell script which&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; 1) Generates a syslog message at level LOG_EMERG;
+ 2) reduces the user&#39;s disk quota by 100K; and
+ 3) RUNS ED!!!!!!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;ldquo;Ed is the standard text editor.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s look at a typical novice&amp;rsquo;s session with the mighty ed:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;golem&amp;gt; ed
+
+?
+help
+?
+?
+?
+quit
+?
+exit
+?
+bye
+?
+hello?
+?
+eat flaming death
+?
+^C
+?
+^C
+?
+^D
+?
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;p&gt;Note the consistent user interface and error reportage.  Ed is
+generous enough to flag errors, yet prudent enough not to overwhelm
+the novice with verbosity.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Ed is the standard text editor.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Ed, the greatest WYGIWYG editor of all.&lt;/p&gt;
+&lt;p&gt;ED IS THE TRUE PATH TO NIRVANA!  ED HAS BEEN THE CHOICE OF EDUCATED
+AND IGNORANT ALIKE FOR CENTURIES!  ED WILL NOT CORRUPT YOUR PRECIOUS
+BODILY FLUIDS!!  ED IS THE STANDARD TEXT EDITOR!  ED MAKES THE SUN
+SHINE AND THE BIRDS SING AND THE GRASS GREEN!!&lt;/p&gt;
+&lt;p&gt;When I use an editor, I don&amp;rsquo;t want eight extra KILOBYTES of worthless
+help screens and cursor positioning code!  I just want an EDitor!!
+Not a &amp;ldquo;viitor&amp;rdquo;.  Not a &amp;ldquo;emacsitor&amp;rdquo;.  Those aren&amp;rsquo;t even WORDS!!!! ED!
+ED! ED IS THE STANDARD!!!&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>: </title>
+      <link>http://example.com/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/readme/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
