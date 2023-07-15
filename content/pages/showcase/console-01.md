@@ -13,6 +13,6 @@ title: Add a Theme (asciinema)
 See themes.gohugo.io for a list of themes to consider.
 <!--more-->
 
-This quickstart uses the beautiful Ananke theme.
+这个 quickstart uses the beautiful Ananke theme.
 
 {{< asciicast WJM2LEZQs8VRhNeuZ5NiGPp9I >}}

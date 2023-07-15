@@ -3,6 +3,7 @@ theme: hugo-theme-w3css-basic
 taxonomies:
   category: categories
   tag: tags
+  
 menu:
 # name:按钮显示名称
 # pre:按钮图标
@@ -22,11 +23,19 @@ menu:
       url: /contact
       weight: 2
   
-  #“我的收藏”按钮设置
-    - name: 我的收藏
+  #“风险评估”按钮设置
+    - identifier: riskassessment
+      name: 风险评估
+      pre: fas fa-shield-alt
+      weight: 3
+    - name: 全部风险评估工具
+      parent: riskassessment
+      pre: fas fa-wrench
+      url: /test-risk-tool
+    - name: 我收藏的工具
+      parent: riskassessment
       pre: fas fa-star
       url: /pages
-      weight: 3
       
   # “资讯”按钮设置  
     - identifier: information

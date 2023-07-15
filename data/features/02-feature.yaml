@@ -1,8 +1,7 @@
 weight:      2
-name:        "Vulputate"
+name:        "打印报告"
 icon:        "fas fa-print"
 animated:    "rollIn"
 url:         pages/front/features/02
 description: |
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-  molestie consequat, vel illum dolore
+  将您的风险评估报告生成不同格式的打印文件
